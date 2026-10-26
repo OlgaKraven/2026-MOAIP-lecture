@@ -124,6 +124,15 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
     save(`${prefix}:theme`, theme)
   }, [theme, prefix])
   useEffect(() => {
+    const syncTheme = (event: StorageEvent) => {
+      if (event.key !== `${prefix}:theme`) return
+      const next = read<unknown>(`${prefix}:theme`, 'light')
+      if (next === 'light' || next === 'dark') setTheme(next)
+    }
+    window.addEventListener('storage', syncTheme)
+    return () => window.removeEventListener('storage', syncTheme)
+  }, [prefix])
+  useEffect(() => {
     const font = new FontFace('Raleway', `url(${assetUrl(course.font, base)})`, {
       weight: '100 900',
     })
@@ -221,6 +230,7 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
           session={query.get('session') || ''}
           initialSlide={slide!.id}
           onExit={() => navigate({ lecture: lecture.id, slide: slide!.id })}
+          onThemeChange={() => setTheme(current => current === 'light' ? 'dark' : 'light')}
         />
       </Suspense>
     )

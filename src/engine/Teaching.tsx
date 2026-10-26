@@ -35,9 +35,9 @@ type Props = {
   session: string
   initialSlide: string
   onExit: () => void
+  onThemeChange: () => void
 }
 export default function Teaching(props: Props) {
-  useEffect(()=>{const key=`lecture:${props.base}:${props.course.id}:theme`;const update=()=>{document.documentElement.dataset.theme=read(key,'light')};update();const listener=(event:StorageEvent)=>{if(event.key===key)update()};window.addEventListener('storage',listener);return()=>window.removeEventListener('storage',listener)},[props.base,props.course.id])
   return props.mode === 'audience' ? (
     <Audience {...props} />
   ) : (
@@ -153,7 +153,7 @@ function Audience({ course, lecture, base, session, profile }: Props) {
     </main>
   )
 }
-function Presenter({ course, lecture, base, profile, session, initialSlide, onExit }: Props) {
+function Presenter({ course, lecture, base, profile, session, initialSlide, onExit, onThemeChange }: Props) {
   const storageKey = `lecture:${base}:${course.id}:private:${course.contentVersion}`
   const layout = usePanelLayout(`lecture:${base}:${course.id}:panel-layout`)
   const sessionKey = `lecture-session:${session}`
@@ -590,7 +590,7 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
               <MonitorPlay size={17} />
               Открыть аудиторию
             </button>
-            <button className="button ghost" onClick={()=>{const key=`lecture:${base}:${course.id}:theme`;const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;save(key,next)}}>Сменить тему</button>
+            <button className="button ghost" onClick={onThemeChange}>Сменить тему</button>
             <button className="button ghost" onClick={copyAudience}>
               Скопировать ссылку аудитории
             </button>

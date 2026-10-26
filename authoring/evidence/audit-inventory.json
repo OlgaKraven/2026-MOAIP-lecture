@@ -33,7 +33,7 @@
     "src/engine/InfographicMobile.tsx": "c328607645922c0f496b333dbac0bb6e425d0220e7356d4919e0a74dbde958b5",
     "src/engine/infographics.css": "eecdbef10de02e5067e97552ebb375af2b7a596f58795d712fa98a24b14d12a3",
     "src/engine/layout-final.css": "a7dab28417aba8e86569f9cdce8afe1c1d9c00b7cfa98e6d3e818ce363181984",
-    "src/engine/LectureSite.tsx": "90e16327ee394a462dc6ac7176a7682383e4f66bd121040d82dfa0ac2a1489d3",
+    "src/engine/LectureSite.tsx": "495babda827b31a92b33297841de31ab2eafa977594ece9f9a78f663b2d888df",
     "src/engine/Modal.tsx": "a98adff697c2ab3e645a99415176898b806b32188aafdb712f13c0b48800882c",
     "src/engine/model.ts": "4423162cdb81f7326079917fb2eeffbb9639cf10ae59195e3fcbfdfafea6f01a",
     "src/engine/offline.ts": "944e1a2c68576aac46dd76bf5e65f8e4608776aac41063b7ac108f08b24b97e9",
@@ -48,7 +48,7 @@
     "src/engine/session.ts": "ed3109e549b0ffb803805cccc68ebcb0e804257ef7e6e7bf52594fc9a79eca3c",
     "src/engine/SlideView.tsx": "7397ec8bcfe6e1ecc6165980bee5877663c092ccd5676b0133d4c6e1b925bccd",
     "src/engine/storage.ts": "d011e84e59769431b457d894eed37e91c00bd0294d365c153f9578979a56155f",
-    "src/engine/Teaching.tsx": "d994498b3df062a5457a1d1439a8592c2004f171ef9f3f761be79cf5c50b051a",
+    "src/engine/Teaching.tsx": "1987a955efd3aa02d91f88c39784fd40218e81a651f0a1efba580a496ca0e542",
     "src/engine/template.css": "bb7f6d8e9cb28ade75c2ff583cfc419851ce6e7867e8ae876e79c43c68890f28",
     "src/engine/TimingPlan.tsx": "56dd7acfea4150ec984df8a986623e4721aa332917b8c1d5425e43cff9b9b0c1",
     "src/engine/validation.ts": "23a734ea4b720399b850cb50b8814f82ac870c9dd2278ab42875c67932024f37",
@@ -153,7 +153,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6a4913df64e29c3376e64eda199e6a68773e672f07dff8dc01d94e80c38ce243"
+      "fingerprint": "fb300c59f37ae1fabc7e6a59c390e7acc7deffdbb10c7387afaa5168d5b1c8f8"
     },
     {
       "id": "s05-02-review:intro",
@@ -210,7 +210,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "cd38922b7ededb84d7a22c6129e55818cf5afc8d7f0924f1c79fbb3e44c0ee0d"
+      "fingerprint": "8ce23ba32b2418a0cad3a5889d34946ab1ed83f885604175a4fe6e091338cd2b"
     },
     {
       "id": "s05-03-planning:intro",
@@ -267,7 +267,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5cfe13fc6d17c8f20425348e338f026e7173c02e42ab9855cc850f07827a0fd9"
+      "fingerprint": "bce9f2c0c4f376ef49db40f8814f3fb256e073b130c9c658c982da7d4c885c74"
     },
     {
       "id": "s05-04-analysis:intro",
@@ -324,7 +324,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a05ba62c0409c874d29310d933393b675cacf3bce580ad7bbb07a3b88b03dd95"
+      "fingerprint": "21268c51292fce13e1f850819bb8e674123637b84154b866a1afb193f280f41d"
     },
     {
       "id": "s05-05-criteria:intro",
@@ -381,7 +381,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "758916b1943e00cc51f6f37e9640b63a824309db1ce53355db1fbe970c756fbc"
+      "fingerprint": "5984bdc76c9cf9bb41d0a953014d0c0c24e24ef7cd4b9a5bd18fec4bf42b6a43"
     },
     {
       "id": "s05-06-comparison:intro",
@@ -438,7 +438,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "28f3b133764102ce0cd3f231658f802be5b8efb4ed005373a2fc77b1ed7ee9a7"
+      "fingerprint": "cac5d2590b8de9cd8bb9422306bfdef3da3ee46984ae3d0d0915633fd8aa51dc"
     },
     {
       "id": "s05-07-code-study:intro",
@@ -495,7 +495,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5571370111c1cdf338edfb024615748684ec110514b0dddc346fe79b0aa7a79a"
+      "fingerprint": "4cb24938d25978e22610507e47e4d00fdb8fc8c65426c8055fd7221cc2345796"
     },
     {
       "id": "s05-08-change-control:intro",
@@ -552,7 +552,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0370bcc0e31d65b6eeeffcf800eecd3913f11d6f44977385224f1d1086d53e83"
+      "fingerprint": "b3e635f38b8224f05d295afcfff5f858f950045d8b3a1be6fc43c1f89865cfed"
     },
     {
       "id": "s05-09-reverse:intro",
@@ -609,7 +609,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0b35c6562c90ffe29d67ac3fba47eadd90fdef6b157e5b140c515d84d490998f"
+      "fingerprint": "cfa704b40265440b9c75c6112f639df85cefaaa81bbb29c7e8fa2bc26040f53c"
     },
     {
       "id": "s06-01-review-tools:intro",
@@ -666,7 +666,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "cf426a365e4ff8e3dc41836a19ab7bd1f74a2268ddc166f2370cd7c08794a222"
+      "fingerprint": "ef450d809f68f1d63084dd880cf227abb8f6c759819a5685a6b72a5ce3f3daa6"
     },
     {
       "id": "s06-02-preprocessing:intro",
@@ -723,7 +723,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6c5d8bc9ee25a48db28399bad37c929c5cfe3128bc99d79cc9b5cf5ad0d86bad"
+      "fingerprint": "eab06913fb2fdc02dc6c040f0c8910b26380e3fce264389a237b7c304e96e1b9"
     },
     {
       "id": "s06-03-validation:intro",
@@ -780,7 +780,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d9c449999a7ac31286639c8c06751a90d50337f4f59b9fd54564f63ca45d9a35"
+      "fingerprint": "09dd0bb6c02eaad43b77f9623e85a7fd7147c6afc883392b3a6233372d85d928"
     },
     {
       "id": "s06-04-vcs-compatibility:intro",
@@ -837,7 +837,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b70b1fb17802c2da6aa73444e27161f75403875d3ac914f3adf9d212e6a87462"
+      "fingerprint": "e4a06e20a39236a80cb3a12bbabbf61d702fe00f6d4486e8e09522a5a9c9e419"
     },
     {
       "id": "s06-05-linux-access:intro",
@@ -894,7 +894,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fee0f41bd480a9fb9b90cd974a33ac3585e0dca24af3ba71d06d4a5f64bf21bc"
+      "fingerprint": "735000a88bb556872ddaed722d71de2f98bd29e991bf1292be02abcbc9a168fa"
     },
     {
       "id": "s06-06-project-analysis:intro",
@@ -951,7 +951,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6c53bba77e9ae155077dfec88689104355afb23a37c35b623590406628379430"
+      "fingerprint": "d7f9c044e926ace7bed87137b922805a0f92416e7db8a63f392eccff75ed3ebf"
     },
     {
       "id": "s06-07-ide-tools:intro",
@@ -1008,7 +1008,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b4d0046a388e1d466396f3e0e9eb33b6fea2d610373bf25be60855c888e0c1a8"
+      "fingerprint": "bdff23ae6d9c8ef3968f2e0dd79fd51ff7505563a0f3a3f2611a788446e62671"
     },
     {
       "id": "s06-08-jdk:intro",
@@ -1065,7 +1065,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "372289e3e1ccd786cfd8025086a054e888a69a1958b2cfa8cd4a8c3023282911"
+      "fingerprint": "7de89a08dc3aa851600b0a42bf79feaa9c2b179a0b6eac4e76d673b5009d40f7"
     },
     {
       "id": "s06-09-cdt:intro",
@@ -1122,7 +1122,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "71ceb755c0c40c39ca81c9893fd4f49370c5dce8473db90bebf900490737174e"
+      "fingerprint": "2c6e8bf66e4b2cdb334b214a7071bda811d56e274c837fcc409d8a37b20518cb"
     },
     {
       "id": "s06-10-netbeans:intro",
@@ -1179,7 +1179,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a6352c5210fe79ed8bcfe56d1aff773fb98b1693f474d6333b34fc77c3efd2e2"
+      "fingerprint": "43c88b800f4a1b3f275b7f14bd3bf158784b52b140d14ddbaabe8d3896a67300"
     }
   ],
   "counts": {
