@@ -3,7 +3,7 @@
   "reviews": [
     {
       "id": "s05-01-team-git:intro",
-      "fingerprint": "1005a107b13fd970e12ae195f42835ef73a617280d052759c5c2064ed6f9f919",
+      "fingerprint": "6a4913df64e29c3376e64eda199e6a68773e672f07dff8dc01d94e80c38ce243",
       "checks": {
         "student": {
           "status": "passed",
@@ -66,7 +66,7 @@
     },
     {
       "id": "s05-02-review:intro",
-      "fingerprint": "0777e1a92fa3a07f6e81e5245fc08e82afcd6061e105593e4852db38d6915dda",
+      "fingerprint": "cd38922b7ededb84d7a22c6129e55818cf5afc8d7f0924f1c79fbb3e44c0ee0d",
       "checks": {
         "student": {
           "status": "passed",
@@ -129,7 +129,7 @@
     },
     {
       "id": "s05-03-planning:intro",
-      "fingerprint": "2d55943c6d8a27cc6f357283c929327b8b3e2c3a9d5c147c443071fa711788ed",
+      "fingerprint": "5cfe13fc6d17c8f20425348e338f026e7173c02e42ab9855cc850f07827a0fd9",
       "checks": {
         "student": {
           "status": "passed",
@@ -192,7 +192,7 @@
     },
     {
       "id": "s05-04-analysis:intro",
-      "fingerprint": "1d0f5ccdacc0ef0859247836a8659eff40c983d34db37c954688058434eba4e8",
+      "fingerprint": "a05ba62c0409c874d29310d933393b675cacf3bce580ad7bbb07a3b88b03dd95",
       "checks": {
         "student": {
           "status": "passed",
@@ -255,7 +255,7 @@
     },
     {
       "id": "s05-05-criteria:intro",
-      "fingerprint": "7ff7450e4352b0f368a4398390f04b87f993d382d231bf17bbe76682641020b9",
+      "fingerprint": "758916b1943e00cc51f6f37e9640b63a824309db1ce53355db1fbe970c756fbc",
       "checks": {
         "student": {
           "status": "passed",
@@ -318,7 +318,7 @@
     },
     {
       "id": "s05-06-comparison:intro",
-      "fingerprint": "23bb6478a2f4b8bfc849bb64736b7d23a7d6bc4ee83791b1d229e6cfc511f12f",
+      "fingerprint": "28f3b133764102ce0cd3f231658f802be5b8efb4ed005373a2fc77b1ed7ee9a7",
       "checks": {
         "student": {
           "status": "passed",
@@ -381,7 +381,7 @@
     },
     {
       "id": "s05-07-code-study:intro",
-      "fingerprint": "0c0a486e5138bdae45f8e8a42fb36d7d342b2a864cc228dade26b71a3d42a3e0",
+      "fingerprint": "5571370111c1cdf338edfb024615748684ec110514b0dddc346fe79b0aa7a79a",
       "checks": {
         "student": {
           "status": "passed",
@@ -444,7 +444,7 @@
     },
     {
       "id": "s05-08-change-control:intro",
-      "fingerprint": "bafd5ec1ed6912968f5f28a7370a71facb20027cfc6073153c19c213022b4bce",
+      "fingerprint": "0370bcc0e31d65b6eeeffcf800eecd3913f11d6f44977385224f1d1086d53e83",
       "checks": {
         "student": {
           "status": "passed",
@@ -507,7 +507,7 @@
     },
     {
       "id": "s05-09-reverse:intro",
-      "fingerprint": "7638ea67a9a90bb63cb8b65c8db5b01c752b6aaf6130fc1fa52dc5054b3edb74",
+      "fingerprint": "0b35c6562c90ffe29d67ac3fba47eadd90fdef6b157e5b140c515d84d490998f",
       "checks": {
         "student": {
           "status": "passed",
@@ -570,7 +570,7 @@
     },
     {
       "id": "s06-01-review-tools:intro",
-      "fingerprint": "2ba3bb7bad0a563ea4ede81db29caef2aaa9fc20903856b1b53e2a05309e1179",
+      "fingerprint": "cf426a365e4ff8e3dc41836a19ab7bd1f74a2268ddc166f2370cd7c08794a222",
       "checks": {
         "student": {
           "status": "passed",
@@ -633,7 +633,7 @@
     },
     {
       "id": "s06-02-preprocessing:intro",
-      "fingerprint": "53010e40f2473d5fd967357e98510e981e28abf7d874d7a5fb1b5cdd122c07bc",
+      "fingerprint": "6c5d8bc9ee25a48db28399bad37c929c5cfe3128bc99d79cc9b5cf5ad0d86bad",
       "checks": {
         "student": {
           "status": "passed",
@@ -696,7 +696,7 @@
     },
     {
       "id": "s06-03-validation:intro",
-      "fingerprint": "3d7a33fb2081e02e3fd3c7b3e9ff2f7d2b63eb64206250137c966d92d21a7cb3",
+      "fingerprint": "d9c449999a7ac31286639c8c06751a90d50337f4f59b9fd54564f63ca45d9a35",
       "checks": {
         "student": {
           "status": "passed",
@@ -759,7 +759,7 @@
     },
     {
       "id": "s06-04-vcs-compatibility:intro",
-      "fingerprint": "1f7e0f4df63d873f04ff69a8fe83bfd56e2ff4ed49fe214cb67e4fb0a310d210",
+      "fingerprint": "b70b1fb17802c2da6aa73444e27161f75403875d3ac914f3adf9d212e6a87462",
       "checks": {
         "student": {
           "status": "passed",
@@ -822,7 +822,7 @@
     },
     {
       "id": "s06-05-linux-access:intro",
-      "fingerprint": "859773afb35637e36e586b3b1d8ed6e99f6a0941818fec9567941c88cc4d0240",
+      "fingerprint": "fee0f41bd480a9fb9b90cd974a33ac3585e0dca24af3ba71d06d4a5f64bf21bc",
       "checks": {
         "student": {
           "status": "passed",
@@ -885,7 +885,7 @@
     },
     {
       "id": "s06-06-project-analysis:intro",
-      "fingerprint": "f59f26ea83c4ae46b9e5f0b7d6d938b181113a764c6b95d54e7b97da0a46b2f8",
+      "fingerprint": "6c53bba77e9ae155077dfec88689104355afb23a37c35b623590406628379430",
       "checks": {
         "student": {
           "status": "passed",
@@ -948,7 +948,7 @@
     },
     {
       "id": "s06-07-ide-tools:intro",
-      "fingerprint": "43f66ee5d858310aeddb0bc717c062f7832fc99d176ea0939cec87d8b03e99de",
+      "fingerprint": "b4d0046a388e1d466396f3e0e9eb33b6fea2d610373bf25be60855c888e0c1a8",
       "checks": {
         "student": {
           "status": "passed",
@@ -1011,7 +1011,7 @@
     },
     {
       "id": "s06-08-jdk:intro",
-      "fingerprint": "fd6fa80422dec02bca225c16afe33aae96b6b919d1862075ab76661e79d72d7a",
+      "fingerprint": "372289e3e1ccd786cfd8025086a054e888a69a1958b2cfa8cd4a8c3023282911",
       "checks": {
         "student": {
           "status": "passed",
@@ -1074,7 +1074,7 @@
     },
     {
       "id": "s06-09-cdt:intro",
-      "fingerprint": "85158cc16aa87415afa56ba8f0b1bc4c6524a681bab7f015e380506d903e63df",
+      "fingerprint": "71ceb755c0c40c39ca81c9893fd4f49370c5dce8473db90bebf900490737174e",
       "checks": {
         "student": {
           "status": "passed",
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "s06-10-netbeans:intro",
-      "fingerprint": "13cbaefec9574385b1f517d6403a2873faf4cafa8f0b1fcb31b208fa8c3b8447",
+      "fingerprint": "a6352c5210fe79ed8bcfe56d1aff773fb98b1693f474d6333b34fc77c3efd2e2",
       "checks": {
         "student": {
           "status": "passed",

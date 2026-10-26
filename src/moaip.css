@@ -69,6 +69,11 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .title-profile:has(strong:empty){display:none}
 .presenter-notes .note-text{overflow:auto;white-space:pre-wrap}
 .moaip-solution,.note-text{overflow-wrap:anywhere}
+.print-document{--red:#cb2823;--red-dark:#ca2822;--surface:#fff;--surface-2:#f4f4f5;--text:#202022;--muted:#66666f;--border:#dedee3;color:var(--text);color-scheme:light}
+.print-document .slide-frame{background:#fff!important;color:var(--text);color-scheme:light}
+.print-document .kind-title .slide-brand img{filter:none!important;mix-blend-mode:multiply!important}
+.print-document .slide-frame .write-note{background:#fff1ef!important}
+.print-document .slide-frame .topic-arrow{filter:brightness(0) invert(.935)!important}
 @media(max-width:650px){
  .approved-catalog{padding:14px!important}
  .approved-catalog .catalog-header{flex-wrap:wrap}

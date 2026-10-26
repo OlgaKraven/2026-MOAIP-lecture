@@ -3,7 +3,7 @@
   "courseId": "moaip",
   "contentVersion": "moaip-2026-10-26-2",
   "scope": "full",
-  "inventorySha256": "9e65b8b03ad9f234b2d0591275c7ff4fc870f208d631b0933e8d5ff807c47cd5",
+  "inventorySha256": "b64f4856d286f162660de30b704d016c2b5bc28ac5e2a777b21874fa7103f172",
   "counts": {
     "lectures": 19,
     "slides": 835,
