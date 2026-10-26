@@ -1,0 +1,1565 @@
+{
+  "courseVersion": "moaip-2026-10-26-2",
+  "checks": [
+    {
+      "id": "s05-01-team-git-q1-t1",
+      "slideId": "s05-01-team-git-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q1-t2",
+      "slideId": "s05-01-team-git-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q1-t3",
+      "slideId": "s05-01-team-git-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q1-t4",
+      "slideId": "s05-01-team-git-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-01-team-git-q2-t5",
+      "slideId": "s05-01-team-git-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q2-t6",
+      "slideId": "s05-01-team-git-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q2-t7",
+      "slideId": "s05-01-team-git-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q2-t8",
+      "slideId": "s05-01-team-git-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-01-team-git-q3-t9",
+      "slideId": "s05-01-team-git-s056",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q3-t10",
+      "slideId": "s05-01-team-git-s057",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q3-t11",
+      "slideId": "s05-01-team-git-s058",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-01-team-git-q3-t12",
+      "slideId": "s05-01-team-git-s059",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-02-review-q1-t1",
+      "slideId": "s05-02-review-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q1-t2",
+      "slideId": "s05-02-review-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q1-t3",
+      "slideId": "s05-02-review-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q1-t4",
+      "slideId": "s05-02-review-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-02-review-q2-t5",
+      "slideId": "s05-02-review-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q2-t6",
+      "slideId": "s05-02-review-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q2-t7",
+      "slideId": "s05-02-review-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-02-review-q2-t8",
+      "slideId": "s05-02-review-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-03-planning-q1-t1",
+      "slideId": "s05-03-planning-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q1-t2",
+      "slideId": "s05-03-planning-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q1-t3",
+      "slideId": "s05-03-planning-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q1-t4",
+      "slideId": "s05-03-planning-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-03-planning-q2-t5",
+      "slideId": "s05-03-planning-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q2-t6",
+      "slideId": "s05-03-planning-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q2-t7",
+      "slideId": "s05-03-planning-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-03-planning-q2-t8",
+      "slideId": "s05-03-planning-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-04-analysis-q1-t1",
+      "slideId": "s05-04-analysis-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q1-t2",
+      "slideId": "s05-04-analysis-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q1-t3",
+      "slideId": "s05-04-analysis-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q1-t4",
+      "slideId": "s05-04-analysis-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-04-analysis-q2-t5",
+      "slideId": "s05-04-analysis-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q2-t6",
+      "slideId": "s05-04-analysis-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q2-t7",
+      "slideId": "s05-04-analysis-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-04-analysis-q2-t8",
+      "slideId": "s05-04-analysis-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-05-criteria-q1-t1",
+      "slideId": "s05-05-criteria-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q1-t2",
+      "slideId": "s05-05-criteria-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q1-t3",
+      "slideId": "s05-05-criteria-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q1-t4",
+      "slideId": "s05-05-criteria-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-05-criteria-q2-t5",
+      "slideId": "s05-05-criteria-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q2-t6",
+      "slideId": "s05-05-criteria-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q2-t7",
+      "slideId": "s05-05-criteria-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-05-criteria-q2-t8",
+      "slideId": "s05-05-criteria-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-06-comparison-q1-t1",
+      "slideId": "s05-06-comparison-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q1-t2",
+      "slideId": "s05-06-comparison-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q1-t3",
+      "slideId": "s05-06-comparison-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q1-t4",
+      "slideId": "s05-06-comparison-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-06-comparison-q2-t5",
+      "slideId": "s05-06-comparison-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q2-t6",
+      "slideId": "s05-06-comparison-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q2-t7",
+      "slideId": "s05-06-comparison-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-06-comparison-q2-t8",
+      "slideId": "s05-06-comparison-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-07-code-study-q1-t1",
+      "slideId": "s05-07-code-study-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q1-t2",
+      "slideId": "s05-07-code-study-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q1-t3",
+      "slideId": "s05-07-code-study-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q1-t4",
+      "slideId": "s05-07-code-study-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-07-code-study-q2-t5",
+      "slideId": "s05-07-code-study-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q2-t6",
+      "slideId": "s05-07-code-study-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q2-t7",
+      "slideId": "s05-07-code-study-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-07-code-study-q2-t8",
+      "slideId": "s05-07-code-study-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-08-change-control-q1-t1",
+      "slideId": "s05-08-change-control-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q1-t2",
+      "slideId": "s05-08-change-control-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q1-t3",
+      "slideId": "s05-08-change-control-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q1-t4",
+      "slideId": "s05-08-change-control-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-08-change-control-q2-t5",
+      "slideId": "s05-08-change-control-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q2-t6",
+      "slideId": "s05-08-change-control-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q2-t7",
+      "slideId": "s05-08-change-control-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-08-change-control-q2-t8",
+      "slideId": "s05-08-change-control-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-09-reverse-q1-t1",
+      "slideId": "s05-09-reverse-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q1-t2",
+      "slideId": "s05-09-reverse-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q1-t3",
+      "slideId": "s05-09-reverse-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q1-t4",
+      "slideId": "s05-09-reverse-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s05-09-reverse-q2-t5",
+      "slideId": "s05-09-reverse-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q2-t6",
+      "slideId": "s05-09-reverse-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q2-t7",
+      "slideId": "s05-09-reverse-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s05-09-reverse-q2-t8",
+      "slideId": "s05-09-reverse-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-01-review-tools-q1-t1",
+      "slideId": "s06-01-review-tools-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q1-t2",
+      "slideId": "s06-01-review-tools-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q1-t3",
+      "slideId": "s06-01-review-tools-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q1-t4",
+      "slideId": "s06-01-review-tools-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-01-review-tools-q2-t5",
+      "slideId": "s06-01-review-tools-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q2-t6",
+      "slideId": "s06-01-review-tools-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q2-t7",
+      "slideId": "s06-01-review-tools-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-01-review-tools-q2-t8",
+      "slideId": "s06-01-review-tools-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-02-preprocessing-q1-t1",
+      "slideId": "s06-02-preprocessing-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q1-t2",
+      "slideId": "s06-02-preprocessing-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q1-t3",
+      "slideId": "s06-02-preprocessing-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q1-t4",
+      "slideId": "s06-02-preprocessing-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-02-preprocessing-q2-t5",
+      "slideId": "s06-02-preprocessing-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q2-t6",
+      "slideId": "s06-02-preprocessing-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q2-t7",
+      "slideId": "s06-02-preprocessing-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-02-preprocessing-q2-t8",
+      "slideId": "s06-02-preprocessing-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-03-validation-q1-t1",
+      "slideId": "s06-03-validation-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q1-t2",
+      "slideId": "s06-03-validation-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q1-t3",
+      "slideId": "s06-03-validation-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q1-t4",
+      "slideId": "s06-03-validation-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-03-validation-q2-t5",
+      "slideId": "s06-03-validation-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q2-t6",
+      "slideId": "s06-03-validation-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q2-t7",
+      "slideId": "s06-03-validation-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-03-validation-q2-t8",
+      "slideId": "s06-03-validation-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q1-t1",
+      "slideId": "s06-04-vcs-compatibility-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q1-t2",
+      "slideId": "s06-04-vcs-compatibility-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q1-t3",
+      "slideId": "s06-04-vcs-compatibility-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q1-t4",
+      "slideId": "s06-04-vcs-compatibility-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q2-t5",
+      "slideId": "s06-04-vcs-compatibility-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q2-t6",
+      "slideId": "s06-04-vcs-compatibility-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q2-t7",
+      "slideId": "s06-04-vcs-compatibility-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-04-vcs-compatibility-q2-t8",
+      "slideId": "s06-04-vcs-compatibility-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-05-linux-access-q1-t1",
+      "slideId": "s06-05-linux-access-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q1-t2",
+      "slideId": "s06-05-linux-access-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q1-t3",
+      "slideId": "s06-05-linux-access-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q1-t4",
+      "slideId": "s06-05-linux-access-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-05-linux-access-q2-t5",
+      "slideId": "s06-05-linux-access-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q2-t6",
+      "slideId": "s06-05-linux-access-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q2-t7",
+      "slideId": "s06-05-linux-access-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-05-linux-access-q2-t8",
+      "slideId": "s06-05-linux-access-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-06-project-analysis-q1-t1",
+      "slideId": "s06-06-project-analysis-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q1-t2",
+      "slideId": "s06-06-project-analysis-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q1-t3",
+      "slideId": "s06-06-project-analysis-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q1-t4",
+      "slideId": "s06-06-project-analysis-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-06-project-analysis-q2-t5",
+      "slideId": "s06-06-project-analysis-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q2-t6",
+      "slideId": "s06-06-project-analysis-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q2-t7",
+      "slideId": "s06-06-project-analysis-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-06-project-analysis-q2-t8",
+      "slideId": "s06-06-project-analysis-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-07-ide-tools-q1-t1",
+      "slideId": "s06-07-ide-tools-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q1-t2",
+      "slideId": "s06-07-ide-tools-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q1-t3",
+      "slideId": "s06-07-ide-tools-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q1-t4",
+      "slideId": "s06-07-ide-tools-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-07-ide-tools-q2-t5",
+      "slideId": "s06-07-ide-tools-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q2-t6",
+      "slideId": "s06-07-ide-tools-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q2-t7",
+      "slideId": "s06-07-ide-tools-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-07-ide-tools-q2-t8",
+      "slideId": "s06-07-ide-tools-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-08-jdk-q1-t1",
+      "slideId": "s06-08-jdk-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q1-t2",
+      "slideId": "s06-08-jdk-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q1-t3",
+      "slideId": "s06-08-jdk-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q1-t4",
+      "slideId": "s06-08-jdk-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-08-jdk-q2-t5",
+      "slideId": "s06-08-jdk-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q2-t6",
+      "slideId": "s06-08-jdk-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q2-t7",
+      "slideId": "s06-08-jdk-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-08-jdk-q2-t8",
+      "slideId": "s06-08-jdk-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-09-cdt-q1-t1",
+      "slideId": "s06-09-cdt-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q1-t2",
+      "slideId": "s06-09-cdt-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q1-t3",
+      "slideId": "s06-09-cdt-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q1-t4",
+      "slideId": "s06-09-cdt-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-09-cdt-q2-t5",
+      "slideId": "s06-09-cdt-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q2-t6",
+      "slideId": "s06-09-cdt-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q2-t7",
+      "slideId": "s06-09-cdt-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-09-cdt-q2-t8",
+      "slideId": "s06-09-cdt-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-10-netbeans-q1-t1",
+      "slideId": "s06-10-netbeans-s020",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q1-t2",
+      "slideId": "s06-10-netbeans-s021",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q1-t3",
+      "slideId": "s06-10-netbeans-s022",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q1-t4",
+      "slideId": "s06-10-netbeans-s023",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    },
+    {
+      "id": "s06-10-netbeans-q2-t5",
+      "slideId": "s06-10-netbeans-s038",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q2-t6",
+      "slideId": "s06-10-netbeans-s039",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q2-t7",
+      "slideId": "s06-10-netbeans-s040",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": false
+    },
+    {
+      "id": "s06-10-netbeans-q2-t8",
+      "slideId": "s06-10-netbeans-s041",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "fullAudienceReview": true,
+      "escape": true,
+      "menuAndKeyboard": true
+    }
+  ]
+}

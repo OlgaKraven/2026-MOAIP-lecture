@@ -1,5 +1,5 @@
 from pathlib import Path
-import argparse, hashlib, json, random, sys
+import argparse, copy, hashlib, json, random, sys
 
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'authoring'))
@@ -37,6 +37,7 @@ dict(citation='Цехановский В. В., Водяхо А. И. Проект
 dict(citation='Грекул В. И., Денищенко Г. Н., Коровкина Н. Л. Проектирование информационных систем. 4-е изд. Москва: ИНТУИТ, Ай Пи Ар Медиа, 2024. 299 с. ISBN 978-5-4497-3335-1. IPR СМАРТ; доступ по учётной записи.',url='https://www.iprbookshop.ru/books/142298/details')]
 additional=dict(citation='Достовалов Д. Н., Лауферман О. В. Объектно-ориентированный анализ и проектирование. Задачи и примеры на C++. Новосибирск: НГТУ, 2022. 74 с. ISBN 978-5-7782-4708-6. IPR СМАРТ; доступ по учётной записи.',url='https://www.iprbookshop.ru/books/126577/details')
 course=dict(schemaVersion=1,contentVersion='moaip-2026-10-26-2',id='moaip',code='МДК.03.01',discipline='Моделирование и анализ программного обеспечения',year='2026–2027',heroTitle='Моделирование и анализ',heroAccent='программного обеспечения',slogan='Модели, код и обоснованные решения.',mascot='brand/rhino-moaip.png',mascotAlt='Носорог исследует историю изменений и сравнивает код',logo='brand/synergy-wordmark.jpg',mark='brand/synergy-mark.png',ornament='brand/side-ornament.png',font='fonts/raleway-cyrillic.woff2',topicArrow='brand/topic-arrow.webp',materialsUrl='https://disk.yandex.ru/d/mktM92DijaqmTg',codeExamplesUrl='https://github.com/OlgaKraven/2026-MOAIP-lecture/tree/main/examples',demo=False,semesters=[5,6],literature=dict(primary=primary,additional=[additional]),assessment=dict(mode='autonomous',url='assessment.json'),lectures=[],curriculum=[],glossary=[])
+course['font']='fonts/raleway-regular.woff2'
 notes={}; keys={}; models={}; explanations={}; coverage=[]
 def make_model(mid,title,cases,task):
     scenarios=[]
@@ -61,11 +62,19 @@ for item in COURSE:
     refids=list(dict.fromkeys(q['source'] for q in item['units']))
     refs=[dict(citation=sources[k][0],url=sources[k][1]) for k in refids]
     add('literature','Дополнительная литература и источники',script='На этом экране предметные источники темы. '+ ' '.join(sources[k][0] for k in refids)+' Проверяем поддерживаемые параметры в своей установленной версии. Учебные измерения и продукты A, B ниже условны; они не являются внешним рейтингом.',readingGroup='additional',references=refs)
-    add('materials','Материалы курса',script='Ссылка и QR ведут в папку материалов этой дисциплины. Для воспроизводимых примеров доступен репозиторий курса по отдельной ссылке на экране. Все необходимые условия задач приведены в лекции. Перед командной практикой откройте полный исходник указанного примера и сопоставьте его с условием.',body='Материалы дисциплины и воспроизводимые примеры.')
+    preparation=('Перед первым стендом Git настройте в своей копии проекта ваши реальные данные: git config user.name "Ваше имя" и git config user.email "ваша почта". Windows: Python 3 запускается как py -3, Linux/macOS: python3.' if item['id']=='s05-01-team-git' else 'Материалы дисциплины и воспроизводимые примеры.')
+    add('materials','Материалы курса',script='Ссылка и QR ведут в папку материалов этой дисциплины. Для воспроизводимых примеров доступен репозиторий курса по отдельной ссылке на экране. Все необходимые условия задач приведены в лекции. Перед командной практикой откройте полный исходник указанного примера и сопоставьте его с условием. '+preparation,body=preparation)
     add('agenda','Вопросы лекции',script='Вопросы этой лекции: '+ '; '.join(f'{i+1}. {u["title"]}' for i,u in enumerate(item['units']))+'. Каждый блок связывает исходное состояние, механизм, разобранный пример и самостоятельную проверку результата.',kicker='План')
     first=len(lecture['slides'])
     for qi,u in enumerate(item['units'],1):
-        detail=DETAILS[item['id']][qi-1]
+        detail=copy.deepcopy(DETAILS[item['id']][qi-1])
+        def command_platform(value):
+            if isinstance(value,str):return value.replace('python ',('python3 ' if item['id']=='s06-03-validation' and qi==2 else 'py -3 '))
+            if isinstance(value,list):return [command_platform(x) for x in value]
+            if isinstance(value,tuple):return tuple(command_platform(x) for x in value)
+            if isinstance(value,dict):return {k:command_platform(v) for k,v in value.items()}
+            return value
+        detail=command_platform(detail)
         if detail:
             u['mechanism']=[detail['mechanism'],detail['why']]
             u['practice']=dict(given=detail['practice'],states=detail['practiceStates'],result=detail['practiceReview'],answer=detail['practiceAnswer'])
@@ -76,10 +85,11 @@ for item in COURSE:
             add('theory','Предметная ситуация и исходное состояние',script=detail['context']+' Мы будем проверять, как из этих данных получается результат, и сохранять различие между фактом и предположением.',body=detail['context'],kicker=tag)
         for ti in [0,2]:
             definitions='\n'.join(a+' — '+b for a,b in terms[ti:ti+2])
-            add('notebook',('Основные понятия' if ti==0 else 'Что различаем при анализе'),script=' '.join(a+' — '+b for a,b in terms[ti:ti+2])+' '+(u['mechanism'][0] if ti==0 else u['mechanism'][1]),notebook=definitions,kicker=tag)
+            add('notebook',('Основные понятия' if ti==0 else 'Что различаем при анализе'),script=' '.join(a+' — '+b for a,b in terms[ti:ti+2]),notebook=definitions,kicker=tag)
         if detail:
-            add('example',detail['artifactTitle'],script='Перед нами полный исходный артефакт рассматриваемого случая. '+detail['context']+' Показ: прочитайте входы и требуемый выход, затем сопоставьте их с механизмом на следующем экране.',code=detail['artifact'],body='Исходные данные для следующих действий приведены полностью.',kicker=tag)
-        add('theory','Как работает механизм',script=u['mechanism'][0]+' '+u['mechanism'][1],body=u['mechanism'][0],kicker=tag,source=source)
+            environment=('Windows: py -3; Linux/macOS: python3. В Linux замените префикс команды Python.' if 'py -3 ' in detail['artifact'] else 'Пример для Linux shell.' if item['id']=='s06-03-validation' and qi==2 else 'Исходные данные для следующих действий приведены полностью.')
+            add('example',detail['artifactTitle'],script='Перед нами полный исходный артефакт рассматриваемого случая. '+detail['context']+' '+environment+' Показ: прочитайте входы и требуемый выход, затем сопоставьте их с механизмом на следующем экране.',code=detail['artifact'],body=environment,kicker=tag)
+        add('theory','Как работает механизм',script=u['mechanism'][0],body=u['mechanism'][0],kicker=tag,source=source)
         if detail:
             add('theory','Почему получается этот результат',script=detail['why'],body=detail['why'],kicker=tag)
         visual=clean(u['visual'])
@@ -89,7 +99,7 @@ for item in COURSE:
             ns={n['id']:n['title'] for n in visual['nodes']}
             interpretation=' '.join(f'Связь {ns[e["from"]]} → {ns[e["to"]]} означает: {e["label"]}.' for e in visual['edges'])
         else:interpretation=' '.join(a['title']+': '+a['text']+'.' for a in visual['items'])
-        add('process','Разбор связей и условий',script=interpretation+' '+u['mechanism'][1]+' Обратите внимание: '+visual['caption'],visual=visual,kicker=tag)
+        add('process','Разбор связей и условий',script=interpretation+' Обратите внимание: '+visual['caption'],visual=visual,kicker=tag)
         if detail:
             for ai in range(0,len(detail['actions']),2):
                 actions=detail['actions'][ai:ai+2]
@@ -128,7 +138,10 @@ for item in COURSE:
         short_prompt,short_answer,short_explanation=SHORT[item['id']][qi-1]
         accepted=[short_answer]
         if short_answer=='fast-forward':accepted+=['fast forward']
-        test(dict(type='short',prompt=short_prompt),dict(type='short',accepted=accepted,explanation=short_explanation))
+        short_key=dict(type='short',accepted=accepted,explanation=short_explanation)
+        try:short_key['numeric']=dict(value=float(short_answer.replace(',','.')),tolerance=0)
+        except ValueError:pass
+        test(dict(type='short',prompt=short_prompt),short_key)
         opts=[dict(id='o'+str(i),text=b) for i,(a,b) in enumerate(terms)]
         random.Random(item['id']+str(qi)+'match').shuffle(opts)
         test(dict(type='matching',prompt='Сопоставьте каждый термин с его определением. Каждый вариант используется один раз.',items=[dict(id='i'+str(i),text=a) for i,(a,b) in enumerate(terms)],options=opts),dict(type='matching',pairs={f'i{i}':f'o{i}' for i in range(4)},explanation='\n'.join(a+' — '+b for a,b in terms)))
@@ -144,7 +157,8 @@ for item in COURSE:
         integrated='Команда оформляет заявку: API вернул id=83, но в хранилище только id=84 с тем же текстом. В Git: HEAD=1, индекс=2, рабочий файл=3; выполняется commit без add. При объединении веток настройка main=40 и feature=60 конфликтует; согласованный limit=50. Установите три результата и для каждого назовите действие, которое его проверит.'
         explanations[sid]='1. Приёмка заявки не выполнена: нужна запись id=83, совпадение текста у id=84 недостаточно. Проверить поиск по возвращённому номеру.\n\n2. Commit сохранит 2 из индекса; рабочее 3 останется отдельной правкой. Проверки: git diff --cached до фиксации и git show HEAD:calc.txt после.\n\n3. Конфликт разрешают значением limit=50 по требованию, а не привычным выбором стороны. Подготовить файл, завершить merge, проверить содержимое HEAD и сохранение двух родителей в истории.'
     add('example','Самостоятельная задача по теме',script=integrated+' Дайте группе сформулировать два вывода независимо. До попытки не показывайте разбор. Кнопка «Показать разбор» открывает пояснение для обсуждения, а не выставляет оценку свободному тексту.',answer=explanations[sid],body=integrated,practice=dict(solutionId=sid))
-    add('questions','Обсуждение и выводы',script='Вернёмся ко всем вопросам темы: '+ '; '.join(u['title'] for u in item['units'])+'. Попросите назвать наблюдение, на котором держится каждый вывод, и одно условие, при изменении которого вывод нужно пересмотреть.',body='Какое наблюдение подтверждает ваш вывод? Какие условия ограничивают его? Что изменится при другой редакции, входных данных или конфигурации?',answer=' '.join(u['worked']['result'] for u in item['units'])+' Общий принцип: вывод ограничен исследованным объектом и условиями.')
+    audience_questions=['Какое наблюдение подтверждает ваш вывод?','Какие условия ограничивают его?','Что изменится при другой редакции, входных данных или конфигурации?']
+    add('questions','Вопросы к аудитории',script='Вернёмся ко всем вопросам темы: '+ '; '.join(u['title'] for u in item['units'])+'.\n\n'+ '\n\n'.join(q+' Пауза для ответа и обоснования на конкретном примере.' for q in audience_questions),questions='\n'.join(audience_questions),bullets=audience_questions,answer=' '.join(u['worked']['result'] for u in item['units'])+' Общий принцип: вывод ограничен исследованным объектом и условиями.')
     course['lectures'].append(lecture)
     course['curriculum'].append(dict(topic=item['title'],outcome='Исследовать '+item['title'].lower()+' на заданных данных, обосновать результат и границы.',source=('Тема 03.01.1; ОК 01, ПК 3.1–ПК 3.3' if item['semester']==5 else 'Тема 03.01.2; ОК 01, ПК 3.1–ПК 3.3'),slideIds=[s['id'] for s in lecture['slides'][first:]],taskIds=[s['task']['id'] for s in lecture['slides'] if s.get('task')]))
 

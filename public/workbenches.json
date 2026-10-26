@@ -2260,7 +2260,7 @@
           "5"
         ],
         "hint": "Ответ пока не совпал. Сверьте условие с последним состоянием и проверьте единицы или обозначение редакции.",
-        "code": "javac -g Sample.java\njavap -c -l Sample"
+        "code": "javac -g -d out examples/Sample.java\njavap -classpath out -c -l Sample"
       },
       {
         "id": "case-2",
@@ -4164,7 +4164,7 @@
           "30"
         ],
         "hint": "Ответ пока не совпал. Сверьте условие с последним состоянием и проверьте единицы или обозначение редакции.",
-        "code": "jcmd -l\njcmd <pid> help\njcmd <pid> Thread.print"
+        "code": "jcmd -l\n# замените PID номером нужного процесса\njcmd PID help\njcmd PID Thread.print"
       },
       {
         "id": "case-2",

@@ -1,0 +1,1202 @@
+{
+  "schemaVersion": 1,
+  "reviews": [
+    {
+      "id": "s05-01-team-git:intro",
+      "fingerprint": "1005a107b13fd970e12ae195f42835ef73a617280d052759c5c2064ed6f9f919",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Для команды проверена идентичность заявки по id, а не только тексту. Git разделяет HEAD, индекс и рабочий файл; слияние требует проверки требования, содержимого и родителей. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-02-review:intro",
+      "fingerprint": "0777e1a92fa3a07f6e81e5245fc08e82afcd6061e105593e4852db38d6915dda",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Замечание к price+qty содержит входы 120/3, факт 123 и ожидание 360. Повторное ревью проверяет пропущенный ноль и включённые границы. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-03-planning:intro",
+      "fingerprint": "2d55943c6d8a27cc6f357283c929327b8b3e2c3a9d5c147c443071fa711788ed",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Область ревью выводится из риска скидки, а не числа строк. План содержит отдельные входы 999,1000,1100 и независимо вычисленные ожидания. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-04-analysis:intro",
+      "fingerprint": "1d0f5ccdacc0ef0859247836a8659eff40c983d34db37c954688058434eba4e8",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Среднее и ограничение каждого ответа различены. Сравнение производительности уравнивает работу и среду, не смешивает секунды и операции/с. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-05-criteria:intro",
+      "fingerprint": "7ff7450e4352b0f368a4398390f04b87f993d382d231bf17bbe76682641020b9",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Допуск CSV/бюджета отделён от баллов. Взвешенные суммы и смена лидера при новых весах проверены арифметически. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-06-comparison:intro",
+      "fingerprint": "23bb6478a2f4b8bfc849bb64736b7d23a7d6bc4ee83791b1d229e6cfc511f12f",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Для сравнения трекеров задан точный набор открытых просроченных заявок. Рекомендация учитывает неизвестную стоимость и потерю обязательного поля. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-07-code-study:intro",
+      "fingerprint": "0c0a486e5138bdae45f8e8a42fb36d7d342b2a864cc228dade26b71a3d42a3e0",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "В reserve проверены успех, нехватка и ноль. Трасса суммы объясняет пропуск отрицательного элемента; ноль не различает > и >= по сумме. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-08-change-control:intro",
+      "fingerprint": "bafd5ec1ed6912968f5f28a7370a71facb20027cfc6073153c19c213022b4bce",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Результат CI привязан к текущему commit. Bisect использует реальную историю A–H и находит F; revert не отменяет внешние эффекты автоматически. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s05-09-reverse:intro",
+      "fingerprint": "7638ea67a9a90bb63cb8b65c8db5b01c752b6aaf6130fc1fa52dc5054b3edb74",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Восстановлены определения и чтения переменных. Байткод JVM разобран по стеку; javap не выдаётся за точное восстановление исходника. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-01-review-tools:intro",
+      "fingerprint": "2ba3bb7bad0a563ea4ede81db29caef2aaa9fc20903856b1b53e2a05309e1179",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Различены diff рабочего дерева и индекса. Предупреждения сгруппированы по причине; изменение контракта отменяет основание подавления. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-02-preprocessing:intro",
+      "fingerprint": "53010e40f2473d5fd967357e98510e981e28abf7d874d7a5fb1b5cdd122c07bc",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Макрос раскрыт буквально и проверен GCC. Конфигурация FEATURE отделена от отображения индекса IDE, указаны фактические команды. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-03-validation:intro",
+      "fingerprint": "3d7a33fb2081e02e3fd3c7b3e9ff2f7d2b63eb64206250137c966d92d21a7cb3",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Локальный hook проверяет конкретные байты. Серверный контроль сохраняет ненулевой код ошибки; отрицательное испытание не заменено зелёным значком. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-04-vcs-compatibility:intro",
+      "fingerprint": "1f7e0f4df63d873f04ff69a8fe83bfd56e2ff4ed49fe214cb67e4fb0a310d210",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Patch привязан к базе и семантике переменных. Комментарий учитывает путь, редакцию и контекст, а не только номер строки. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-05-linux-access:intro",
+      "fingerprint": "859773afb35637e36e586b3b1d8ed6e99f6a0941818fec9567941c88cc4d0240",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Для 640/750 выбирается одна категория прав. Права файла, проход каталога, аутентификация и разрешение push различены. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-06-project-analysis:intro",
+      "fingerprint": "f59f26ea83c4ae46b9e5f0b7d6d938b181113a764c6b95d54e7b97da0a46b2f8",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Цикл установен по направленным рёбрам; зависимый модуль без обратного пути в него не включён. Покрытие не объявлено доказательством правильности. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-07-ide-tools:intro",
+      "fingerprint": "43f66ee5d858310aeddb0bc717c062f7832fc99d176ea0939cec87d8b03e99de",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Переименование проверяет семантические ссылки и внешний JSON-контракт. Различие cwd объясняет разные входные файлы CLI и IDE. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-08-jdk:intro",
+      "fingerprint": "fd6fa80422dec02bca225c16afe33aae96b6b919d1862075ab76661e79d72d7a",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Java-исходник и class отделены; старый артефакт сохраняет прежний вывод. Ожидание потока сопоставлено с прогрессом и длительностью наблюдения. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-09-cdt:intro",
+      "fingerprint": "85158cc16aa87415afa56ba8f0b1bc4c6524a681bab7f015e380506d903e63df",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "CDT получает include/defines реальной сборки. Отладка различает состояние до оператора и после next; приложен собираемый C++-проект. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": "s06-10-netbeans:intro",
+      "fingerprint": "13cbaefec9574385b1f517d6403a2873faf4cafa8f0b1fcb31b208fa8c3b8447",
+      "checks": {
+        "student": {
+          "status": "passed",
+          "note": "Maven-проект намеренно содержит один отказ из пяти; после исправления — ноль. Переносимость проверяется чистой копией и явными входами. Проверены видимые условия, механизм, первое действие и новая самостоятельная задача.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        },
+        "teacher": {
+          "status": "passed",
+          "note": "Сверены речь, исходные данные, код, все ключи и переходы этой лекции после завершения правок; заключительные вопросы присутствуют дословно.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/teacher.json",
+              "sha256": "22456587aee3497527c554d8521fc2f535e2ceadc7e86e58cde68b3eede9933b"
+            }
+          ]
+        },
+        "visual": {
+          "status": "passed",
+          "note": "Предметные отношения и числа сверены с условиями. Проверена вся раскладка слайдов лекции; схемы в объяснении и отдельные дополнения сохранены.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/layout.json",
+              "sha256": "7b0ae862588efa9b381181672d6fe273974d70417854d6a61299bdc62034eb20"
+            },
+            {
+              "path": "authoring/evidence/context.png",
+              "sha256": "58c9747e871a2611b8c39a1ae15eb1a41e308dd6723b3f106c499223485644f9"
+            },
+            {
+              "path": "authoring/evidence/git-mechanism.png",
+              "sha256": "0da1a215e092b8ac6f200e31821b368fede2434bdd145acc1b60e6e3990f63fb"
+            }
+          ]
+        },
+        "behavior": {
+          "status": "passed",
+          "note": "Проверены неверная и верная попытки, полное раскрытие ответа аудитории, закрытие; для схем — новые условия, шаги и восстановление аудитории.",
+          "evidence": [
+            {
+              "path": "authoring/evidence/classroom.json",
+              "sha256": "6e4169462f103367751b7cd9bb371833bbe0c8416caa012a3f17345373d76168"
+            },
+            {
+              "path": "authoring/evidence/assessment.json",
+              "sha256": "e04e01b0bffaecab96ddfa8d5a1bdb1141d019b7ff6e561d87b073c0d21da2d2"
+            }
+          ]
+        }
+      },
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,4297 @@
+{
+  "courseVersion": "moaip-2026-10-26-2",
+  "sourceSha256": "f2235dbf67ae33b76a06dd44a54689f4c8906e67ee7296eb7d74aa0252a60a5c",
+  "lectures": 19,
+  "slides": 835,
+  "checks": [
+    {
+      "lectureId": "s05-01-team-git",
+      "slides": [
+        {
+          "id": "s05-01-team-git-s001",
+          "title": "Методы организации работы в команде разработчиков. Системы контроля версий",
+          "kind": "title"
+        },
+        {
+          "id": "s05-01-team-git-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-01-team-git-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-01-team-git-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-01-team-git-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-01-team-git-s006",
+          "title": "Как команда согласует одну поставку",
+          "kind": "section"
+        },
+        {
+          "id": "s05-01-team-git-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s010",
+          "title": "Исходный рабочий артефакт: требование и задачи",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-01-team-git-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-01-team-git-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s024",
+          "title": "Какие состояния хранит Git",
+          "kind": "section"
+        },
+        {
+          "id": "s05-01-team-git-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s028",
+          "title": "Подготовка самостоятельного стенда Git",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-01-team-git-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-01-team-git-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s042",
+          "title": "Как объединяются ветки и разрешается конфликт",
+          "kind": "section"
+        },
+        {
+          "id": "s05-01-team-git-s043",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s044",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s045",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-01-team-git-s046",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s047",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s048",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s049",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-01-team-git-s050",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s051",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-01-team-git-s052",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s053",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s054",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-01-team-git-s055",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s056",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s057",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s058",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s059",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-01-team-git-s060",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-01-team-git-s061",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 61
+    },
+    {
+      "lectureId": "s05-02-review",
+      "slides": [
+        {
+          "id": "s05-02-review-s001",
+          "title": "Цели, задачи, этапы и объекты ревьюирования",
+          "kind": "title"
+        },
+        {
+          "id": "s05-02-review-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-02-review-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-02-review-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-02-review-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-02-review-s006",
+          "title": "Что именно проверяют при ревью",
+          "kind": "section"
+        },
+        {
+          "id": "s05-02-review-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-02-review-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-02-review-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-02-review-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-02-review-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s024",
+          "title": "Как проходит и завершается ревью",
+          "kind": "section"
+        },
+        {
+          "id": "s05-02-review-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-02-review-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-02-review-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-02-review-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-02-review-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-02-review-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-02-review-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-02-review-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-03-planning",
+      "slides": [
+        {
+          "id": "s05-03-planning-s001",
+          "title": "Планирование ревьюирования",
+          "kind": "title"
+        },
+        {
+          "id": "s05-03-planning-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-03-planning-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-03-planning-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-03-planning-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-03-planning-s006",
+          "title": "Как выбрать объём и участников",
+          "kind": "section"
+        },
+        {
+          "id": "s05-03-planning-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-03-planning-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-03-planning-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-03-planning-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-03-planning-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s024",
+          "title": "Как спланировать проверяемый результат",
+          "kind": "section"
+        },
+        {
+          "id": "s05-03-planning-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-03-planning-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-03-planning-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-03-planning-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-03-planning-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-03-planning-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-03-planning-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-03-planning-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-04-analysis",
+      "slides": [
+        {
+          "id": "s05-04-analysis-s001",
+          "title": "Цели, корректность и направления анализа программных продуктов",
+          "kind": "title"
+        },
+        {
+          "id": "s05-04-analysis-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-04-analysis-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-04-analysis-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-04-analysis-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-04-analysis-s006",
+          "title": "Как связать цель анализа с данными",
+          "kind": "section"
+        },
+        {
+          "id": "s05-04-analysis-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-04-analysis-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-04-analysis-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-04-analysis-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-04-analysis-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s024",
+          "title": "Как проверять корректность вывода",
+          "kind": "section"
+        },
+        {
+          "id": "s05-04-analysis-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-04-analysis-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-04-analysis-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-04-analysis-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-04-analysis-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-04-analysis-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-04-analysis-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-04-analysis-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-05-criteria",
+      "slides": [
+        {
+          "id": "s05-05-criteria-s001",
+          "title": "Выбор критериев сравнения. Представление результатов сравнения",
+          "kind": "title"
+        },
+        {
+          "id": "s05-05-criteria-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-05-criteria-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-05-criteria-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-05-criteria-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-05-criteria-s006",
+          "title": "Как построить честные критерии",
+          "kind": "section"
+        },
+        {
+          "id": "s05-05-criteria-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-05-criteria-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-05-criteria-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-05-criteria-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-05-criteria-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s024",
+          "title": "Как показать расчёт и устойчивость выбора",
+          "kind": "section"
+        },
+        {
+          "id": "s05-05-criteria-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-05-criteria-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-05-criteria-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-05-criteria-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-05-criteria-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-05-criteria-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-05-criteria-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-05-criteria-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-06-comparison",
+      "slides": [
+        {
+          "id": "s05-06-comparison-s001",
+          "title": "Примеры сравнительного анализа программных продуктов",
+          "kind": "title"
+        },
+        {
+          "id": "s05-06-comparison-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-06-comparison-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-06-comparison-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-06-comparison-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-06-comparison-s006",
+          "title": "Как сравнить продукты на одном сценарии",
+          "kind": "section"
+        },
+        {
+          "id": "s05-06-comparison-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-06-comparison-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-06-comparison-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-06-comparison-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-06-comparison-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s024",
+          "title": "Как оформить рекомендацию и её границы",
+          "kind": "section"
+        },
+        {
+          "id": "s05-06-comparison-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-06-comparison-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-06-comparison-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-06-comparison-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-06-comparison-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-06-comparison-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-06-comparison-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-06-comparison-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-07-code-study",
+      "slides": [
+        {
+          "id": "s05-07-code-study-s001",
+          "title": "Цели, задачи и методы исследования программного кода",
+          "kind": "title"
+        },
+        {
+          "id": "s05-07-code-study-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-07-code-study-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-07-code-study-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-07-code-study-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-07-code-study-s006",
+          "title": "Как восстановить путь выполнения",
+          "kind": "section"
+        },
+        {
+          "id": "s05-07-code-study-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-07-code-study-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-07-code-study-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-07-code-study-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-07-code-study-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s024",
+          "title": "Как выбрать метод исследования дефекта",
+          "kind": "section"
+        },
+        {
+          "id": "s05-07-code-study-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-07-code-study-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-07-code-study-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-07-code-study-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-07-code-study-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-07-code-study-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-07-code-study-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-07-code-study-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-08-change-control",
+      "slides": [
+        {
+          "id": "s05-08-change-control-s001",
+          "title": "Механизмы и контроль внесения изменений в код",
+          "kind": "title"
+        },
+        {
+          "id": "s05-08-change-control-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-08-change-control-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-08-change-control-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-08-change-control-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-08-change-control-s006",
+          "title": "Как провести изменение от запроса до слияния",
+          "kind": "section"
+        },
+        {
+          "id": "s05-08-change-control-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-08-change-control-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-08-change-control-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-08-change-control-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-08-change-control-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s024",
+          "title": "Как исследовать историю и отменить дефект",
+          "kind": "section"
+        },
+        {
+          "id": "s05-08-change-control-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-08-change-control-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-08-change-control-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-08-change-control-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-08-change-control-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-08-change-control-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-08-change-control-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-08-change-control-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s05-09-reverse",
+      "slides": [
+        {
+          "id": "s05-09-reverse-s001",
+          "title": "Обратное проектирование. Анализ потоков данных. Дизассемблирование",
+          "kind": "title"
+        },
+        {
+          "id": "s05-09-reverse-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-09-reverse-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s05-09-reverse-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s05-09-reverse-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s05-09-reverse-s006",
+          "title": "Как восстановить модель и поток данных",
+          "kind": "section"
+        },
+        {
+          "id": "s05-09-reverse-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-09-reverse-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-09-reverse-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-09-reverse-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-09-reverse-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s024",
+          "title": "Что можно узнать из дизассемблирования",
+          "kind": "section"
+        },
+        {
+          "id": "s05-09-reverse-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-09-reverse-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s05-09-reverse-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s05-09-reverse-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s05-09-reverse-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s05-09-reverse-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s05-09-reverse-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s05-09-reverse-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-01-review-tools",
+      "slides": [
+        {
+          "id": "s06-01-review-tools-s001",
+          "title": "Утилиты для review: обзор",
+          "kind": "title"
+        },
+        {
+          "id": "s06-01-review-tools-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-01-review-tools-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-01-review-tools-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-01-review-tools-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-01-review-tools-s006",
+          "title": "Как выбрать инструмент под операцию ревью",
+          "kind": "section"
+        },
+        {
+          "id": "s06-01-review-tools-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-01-review-tools-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-01-review-tools-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-01-review-tools-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-01-review-tools-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s024",
+          "title": "Где заканчивается автоматический помощник",
+          "kind": "section"
+        },
+        {
+          "id": "s06-01-review-tools-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-01-review-tools-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-01-review-tools-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-01-review-tools-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-01-review-tools-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-01-review-tools-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-01-review-tools-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-01-review-tools-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-02-preprocessing",
+      "slides": [
+        {
+          "id": "s06-02-preprocessing-s001",
+          "title": "Предпроцессинг кода. Интеграция в IDE",
+          "kind": "title"
+        },
+        {
+          "id": "s06-02-preprocessing-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-02-preprocessing-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-02-preprocessing-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-02-preprocessing-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-02-preprocessing-s006",
+          "title": "Как препроцессор меняет исследуемый текст",
+          "kind": "section"
+        },
+        {
+          "id": "s06-02-preprocessing-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-02-preprocessing-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-02-preprocessing-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-02-preprocessing-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-02-preprocessing-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s024",
+          "title": "Почему IDE и сборка видят разный код",
+          "kind": "section"
+        },
+        {
+          "id": "s06-02-preprocessing-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-02-preprocessing-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-02-preprocessing-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-02-preprocessing-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-02-preprocessing-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-02-preprocessing-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-02-preprocessing-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-02-preprocessing-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-03-validation",
+      "slides": [
+        {
+          "id": "s06-03-validation-s001",
+          "title": "Валидация кода на стороне сервера и разработчика",
+          "kind": "title"
+        },
+        {
+          "id": "s06-03-validation-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-03-validation-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-03-validation-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-03-validation-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-03-validation-s006",
+          "title": "Какие проверки выполнять локально",
+          "kind": "section"
+        },
+        {
+          "id": "s06-03-validation-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-03-validation-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-03-validation-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-03-validation-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-03-validation-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s024",
+          "title": "Как устроить независимый серверный контроль",
+          "kind": "section"
+        },
+        {
+          "id": "s06-03-validation-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-03-validation-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-03-validation-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-03-validation-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-03-validation-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-03-validation-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-03-validation-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-03-validation-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-04-vcs-compatibility",
+      "slides": [
+        {
+          "id": "s06-04-vcs-compatibility-s001",
+          "title": "Совместимость и использование инструментов ревьюирования в различных системах контроля версий",
+          "kind": "title"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s006",
+          "title": "Как сопоставить Git и централизованную историю",
+          "kind": "section"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s024",
+          "title": "Как проверить совместимость интеграции",
+          "kind": "section"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-04-vcs-compatibility-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-05-linux-access",
+      "slides": [
+        {
+          "id": "s06-05-linux-access-s001",
+          "title": "Особенности ревьюирования в Linux. Настройки доступа",
+          "kind": "title"
+        },
+        {
+          "id": "s06-05-linux-access-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-05-linux-access-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-05-linux-access-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-05-linux-access-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-05-linux-access-s006",
+          "title": "Как права файлов влияют на проверку",
+          "kind": "section"
+        },
+        {
+          "id": "s06-05-linux-access-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-05-linux-access-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-05-linux-access-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-05-linux-access-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-05-linux-access-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s024",
+          "title": "Как проверить доступ к репозиторию",
+          "kind": "section"
+        },
+        {
+          "id": "s06-05-linux-access-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-05-linux-access-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-05-linux-access-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-05-linux-access-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-05-linux-access-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-05-linux-access-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-05-linux-access-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-05-linux-access-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-06-project-analysis",
+      "slides": [
+        {
+          "id": "s06-06-project-analysis-s001",
+          "title": "Типовые инструменты и методы анализа программных проектов",
+          "kind": "title"
+        },
+        {
+          "id": "s06-06-project-analysis-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-06-project-analysis-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-06-project-analysis-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-06-project-analysis-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-06-project-analysis-s006",
+          "title": "Как исследовать структуру зависимостей",
+          "kind": "section"
+        },
+        {
+          "id": "s06-06-project-analysis-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-06-project-analysis-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-06-project-analysis-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-06-project-analysis-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-06-project-analysis-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s024",
+          "title": "Как интерпретировать метрики и покрытие",
+          "kind": "section"
+        },
+        {
+          "id": "s06-06-project-analysis-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-06-project-analysis-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-06-project-analysis-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-06-project-analysis-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-06-project-analysis-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-06-project-analysis-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-06-project-analysis-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-06-project-analysis-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-07-ide-tools",
+      "slides": [
+        {
+          "id": "s06-07-ide-tools-s001",
+          "title": "Инструментарий различных сред разработки",
+          "kind": "title"
+        },
+        {
+          "id": "s06-07-ide-tools-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-07-ide-tools-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-07-ide-tools-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-07-ide-tools-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-07-ide-tools-s006",
+          "title": "Как читать диагностические возможности IDE",
+          "kind": "section"
+        },
+        {
+          "id": "s06-07-ide-tools-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-07-ide-tools-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-07-ide-tools-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-07-ide-tools-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-07-ide-tools-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s024",
+          "title": "Как сопоставить IDE по возможностям проекта",
+          "kind": "section"
+        },
+        {
+          "id": "s06-07-ide-tools-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-07-ide-tools-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-07-ide-tools-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-07-ide-tools-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-07-ide-tools-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-07-ide-tools-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-07-ide-tools-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-07-ide-tools-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-08-jdk",
+      "slides": [
+        {
+          "id": "s06-08-jdk-s001",
+          "title": "Инструментарий Java Development Kit",
+          "kind": "title"
+        },
+        {
+          "id": "s06-08-jdk-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-08-jdk-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-08-jdk-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-08-jdk-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-08-jdk-s006",
+          "title": "Как пройти путь от Java-файла до байткода",
+          "kind": "section"
+        },
+        {
+          "id": "s06-08-jdk-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-08-jdk-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-08-jdk-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-08-jdk-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-08-jdk-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s024",
+          "title": "Как исследовать зависимости и работающую JVM",
+          "kind": "section"
+        },
+        {
+          "id": "s06-08-jdk-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-08-jdk-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-08-jdk-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-08-jdk-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-08-jdk-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-08-jdk-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-08-jdk-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-08-jdk-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-09-cdt",
+      "slides": [
+        {
+          "id": "s06-09-cdt-s001",
+          "title": "Инструментарий Eclipse C/C++ Development Tools",
+          "kind": "title"
+        },
+        {
+          "id": "s06-09-cdt-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-09-cdt-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-09-cdt-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-09-cdt-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-09-cdt-s006",
+          "title": "Как согласовать CDT с реальной сборкой",
+          "kind": "section"
+        },
+        {
+          "id": "s06-09-cdt-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-09-cdt-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-09-cdt-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-09-cdt-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-09-cdt-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s024",
+          "title": "Как исследовать C++ через GDB и анализ",
+          "kind": "section"
+        },
+        {
+          "id": "s06-09-cdt-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-09-cdt-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-09-cdt-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-09-cdt-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-09-cdt-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-09-cdt-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-09-cdt-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-09-cdt-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    },
+    {
+      "lectureId": "s06-10-netbeans",
+      "slides": [
+        {
+          "id": "s06-10-netbeans-s001",
+          "title": "Инструментарий NetBeans и другие",
+          "kind": "title"
+        },
+        {
+          "id": "s06-10-netbeans-s002",
+          "title": "Основная литература",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-10-netbeans-s003",
+          "title": "Дополнительная литература и источники",
+          "kind": "literature"
+        },
+        {
+          "id": "s06-10-netbeans-s004",
+          "title": "Материалы курса",
+          "kind": "materials"
+        },
+        {
+          "id": "s06-10-netbeans-s005",
+          "title": "Вопросы лекции",
+          "kind": "agenda"
+        },
+        {
+          "id": "s06-10-netbeans-s006",
+          "title": "Как исследовать Java-проект в NetBeans",
+          "kind": "section"
+        },
+        {
+          "id": "s06-10-netbeans-s007",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s008",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-10-netbeans-s009",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-10-netbeans-s010",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s011",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s012",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s013",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-10-netbeans-s014",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s015",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s016",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s017",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s018",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-10-netbeans-s019",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s020",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s021",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s022",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s023",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s024",
+          "title": "Как переносить процесс между средами",
+          "kind": "section"
+        },
+        {
+          "id": "s06-10-netbeans-s025",
+          "title": "Предметная ситуация и исходное состояние",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s026",
+          "title": "Основные понятия",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-10-netbeans-s027",
+          "title": "Что различаем при анализе",
+          "kind": "notebook"
+        },
+        {
+          "id": "s06-10-netbeans-s028",
+          "title": "Исходный артефакт и условия проверки",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s029",
+          "title": "Как работает механизм",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s030",
+          "title": "Почему получается этот результат",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s031",
+          "title": "Разбор связей и условий",
+          "kind": "process"
+        },
+        {
+          "id": "s06-10-netbeans-s032",
+          "title": "Порядок действий: 1–2",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s033",
+          "title": "Порядок действий: 3–4",
+          "kind": "theory"
+        },
+        {
+          "id": "s06-10-netbeans-s034",
+          "title": "Пошаговый пример",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s035",
+          "title": "Изменённое условие",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s036",
+          "title": "Типичная ошибка и граница вывода",
+          "kind": "warning"
+        },
+        {
+          "id": "s06-10-netbeans-s037",
+          "title": "Примените способ к новым данным",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s038",
+          "title": "Выберите обоснованный ответ",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s039",
+          "title": "Выберите верные утверждения",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s040",
+          "title": "Проверьте свой результат",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s041",
+          "title": "Сопоставьте понятия",
+          "kind": "test"
+        },
+        {
+          "id": "s06-10-netbeans-s042",
+          "title": "Самостоятельная задача по теме",
+          "kind": "example"
+        },
+        {
+          "id": "s06-10-netbeans-s043",
+          "title": "Вопросы к аудитории",
+          "kind": "questions"
+        }
+      ],
+      "scriptCoverage": 43
+    }
+  ]
+}

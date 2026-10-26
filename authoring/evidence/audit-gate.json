@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "courseId": "moaip",
+  "contentVersion": "moaip-2026-10-26-2",
+  "scope": "full",
+  "inventorySha256": "9e65b8b03ad9f234b2d0591275c7ff4fc870f208d631b0933e8d5ff807c47cd5",
+  "counts": {
+    "lectures": 19,
+    "slides": 835,
+    "units": 19
+  },
+  "checked": [
+    "s05-01-team-git:intro",
+    "s05-02-review:intro",
+    "s05-03-planning:intro",
+    "s05-04-analysis:intro",
+    "s05-05-criteria:intro",
+    "s05-06-comparison:intro",
+    "s05-07-code-study:intro",
+    "s05-08-change-control:intro",
+    "s05-09-reverse:intro",
+    "s06-01-review-tools:intro",
+    "s06-02-preprocessing:intro",
+    "s06-03-validation:intro",
+    "s06-04-vcs-compatibility:intro",
+    "s06-05-linux-access:intro",
+    "s06-06-project-analysis:intro",
+    "s06-07-ide-tools:intro",
+    "s06-08-jdk:intro",
+    "s06-09-cdt:intro",
+    "s06-10-netbeans:intro"
+  ],
+  "failures": [],
+  "status": "passed"
+}

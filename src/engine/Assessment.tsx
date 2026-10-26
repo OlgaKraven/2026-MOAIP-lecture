@@ -229,7 +229,7 @@ export function TaskView({ task: t }: { task: Task }) {
       <div className="task-actions">
         {ctx.readonly ? (
           <>
-            {!mobile && done && (
+            {done && (
               <span className={`task-status ${a!.result!.status}`}>
                 {a!.result!.status === 'correct' ? 'Правильно' : 'Есть ошибка'} ·{' '}
                 {a!.result!.score.toLocaleString('ru-RU')} / 1
@@ -244,15 +244,13 @@ export function TaskView({ task: t }: { task: Task }) {
           >
             {ctx.busy === t.id ? 'Проверяем…' : 'Проверить'}
           </button>
-        ) : mobile ? (
-          <span role="status">Ответ сохранён</span>
         ) : (
           <>
             <span className={`task-status ${a!.result!.status}`} role="status">
               {a!.result!.status === 'correct' ? 'Правильно' : 'Есть ошибка'} ·{' '}
               {a!.result!.score.toLocaleString('ru-RU')} / 1
             </span>
-            {!mobile && (
+            {(
               <button className="button ghost" onClick={() => ctx.reveal(t, true)}>
                 Разбор ответа
               </button>
@@ -268,7 +266,7 @@ export function TaskView({ task: t }: { task: Task }) {
           </span>
         )}
       </div>
-      {!mobile && show && a?.result && (
+      {show && a?.result && (
         <AssessmentReview id={t.id} readonly={Boolean(ctx.readonly)} onClose={() => ctx.reveal(t, false)}>
           <p>{a.result.explanation}</p>
           <h3>Правильный ответ</h3>

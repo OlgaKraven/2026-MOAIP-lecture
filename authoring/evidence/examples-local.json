@@ -1,0 +1,190 @@
+[
+  {
+    "name": "reserve success",
+    "actual": 3,
+    "expected": 3,
+    "status": "passed"
+  },
+  {
+    "name": "reserve insufficient",
+    "actual": 5,
+    "expected": 5,
+    "status": "passed"
+  },
+  {
+    "name": "reserve zero",
+    "actual": 7,
+    "expected": 7,
+    "status": "passed"
+  },
+  {
+    "name": "reserve negative",
+    "actual": 7,
+    "expected": 7,
+    "status": "passed"
+  },
+  {
+    "name": "positive sum [3, -2, 4]",
+    "actual": 7,
+    "expected": 7,
+    "status": "passed"
+  },
+  {
+    "name": "positive sum [0, -2, 4]",
+    "actual": 4,
+    "expected": 4,
+    "status": "passed"
+  },
+  {
+    "name": "positive sum [5, -1, 2, 0]",
+    "actual": 7,
+    "expected": 7,
+    "status": "passed"
+  },
+  {
+    "name": "positive sum []",
+    "actual": 0,
+    "expected": 0,
+    "status": "passed"
+  },
+  {
+    "name": "total counterexample",
+    "actual": 360,
+    "expected": 360,
+    "status": "passed"
+  },
+  {
+    "name": "total transfer",
+    "actual": 60,
+    "expected": 60,
+    "status": "passed"
+  },
+  {
+    "name": "mean base",
+    "actual": 120.0,
+    "expected": 120,
+    "status": "passed"
+  },
+  {
+    "name": "mean outlier",
+    "actual": 340.0,
+    "expected": 340,
+    "status": "passed"
+  },
+  {
+    "name": "mean transfer",
+    "actual": 50.0,
+    "expected": 50,
+    "status": "passed"
+  },
+  {
+    "name": "throughput comparison",
+    "actual": 2.0,
+    "expected": 2,
+    "status": "passed"
+  },
+  {
+    "name": "throughput transfer",
+    "actual": 300.0,
+    "expected": 300,
+    "status": "passed"
+  },
+  {
+    "name": "weighted A",
+    "actual": 3.8,
+    "expected": 3.8,
+    "status": "passed"
+  },
+  {
+    "name": "weighted B",
+    "actual": 3.4,
+    "expected": 3.4,
+    "status": "passed"
+  },
+  {
+    "name": "changed A",
+    "actual": 2.9,
+    "expected": 2.9,
+    "status": "passed"
+  },
+  {
+    "name": "changed B",
+    "actual": 3.7,
+    "expected": 3.7,
+    "status": "passed"
+  },
+  {
+    "name": "weighted transfer",
+    "actual": 3.25,
+    "expected": 3.25,
+    "status": "passed"
+  },
+  {
+    "name": "line coverage",
+    "actual": 80.0,
+    "expected": 80,
+    "status": "passed"
+  },
+  {
+    "name": "branch coverage",
+    "actual": 75.0,
+    "expected": 75,
+    "status": "passed"
+  },
+  {
+    "name": "permission group",
+    "actual": 4,
+    "expected": 4,
+    "status": "passed"
+  },
+  {
+    "name": "permission owner",
+    "actual": 6,
+    "expected": 6,
+    "status": "passed"
+  },
+  {
+    "name": "permission other",
+    "actual": 0,
+    "expected": 0,
+    "status": "passed"
+  },
+  {
+    "name": "actual Git index",
+    "actual": "2",
+    "expected": "2",
+    "status": "passed"
+  },
+  {
+    "name": "actual Git commit",
+    "actual": "2",
+    "expected": "2",
+    "status": "passed"
+  },
+  {
+    "name": "actual Git working tree",
+    "actual": "3",
+    "expected": "3",
+    "status": "passed"
+  },
+  {
+    "name": "macro.c",
+    "status": "not-run",
+    "reason": "gcc not installed"
+  },
+  {
+    "name": "sample.cpp",
+    "status": "not-run",
+    "reason": "g++ not installed"
+  },
+  {
+    "name": "JDK",
+    "status": "not-run",
+    "reason": "Full JDK not installed"
+  },
+  {
+    "name": "Maven",
+    "status": "not-run",
+    "reason": "Maven not installed"
+  }
+]

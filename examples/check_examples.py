@@ -4,6 +4,9 @@ from subprocess import run
 import json, shutil, sys
 import xml.etree.ElementTree as ET
 
+here=Path(__file__).resolve().parent
+sys.path.insert(0,str(here))
+from code_analysis import reserve,positive_sum
 out=[]
 def check(name,actual,expected):
     if actual!=expected:raise AssertionError(f'{name}: {actual!r} != {expected!r}')
@@ -12,13 +15,12 @@ def command(args,cwd):
     r=run(args,cwd=cwd,text=True,capture_output=True)
     if r.returncode:raise RuntimeError(r.stderr)
     return r.stdout.strip()
-def reserve(qty,stock):return stock-qty if qty>0 and qty<=stock else stock
 check('reserve success',reserve(2,5),3)
 check('reserve insufficient',reserve(6,5),5)
 check('reserve zero',reserve(0,7),7)
 check('reserve negative',reserve(-1,7),7)
 for values,expected in [([3,-2,4],7),([0,-2,4],4),([5,-1,2,0],7),([],0)]:
-    check('positive sum '+str(values),sum(x for x in values if x>0),expected)
+    check('positive sum '+str(values),positive_sum(values),expected)
 check('total counterexample',120*3,360)
 check('total transfer',15*4,60)
 check('mean base',sum([100,120,140])/3,120)
@@ -36,7 +38,6 @@ check('branch coverage',3/4*100,75)
 check('permission group',int('640',8)>>3&7,4)
 check('permission owner',int('640',8)>>6&7,6)
 check('permission other',int('750',8)&7,0)
-here=Path(__file__).resolve().parent
 with TemporaryDirectory(prefix='moaip-check-') as tmp:
     tmp=Path(tmp)
     git=shutil.which('git')
@@ -66,6 +67,15 @@ with TemporaryDirectory(prefix='moaip-check-') as tmp:
             command([compiler,str(here/src),'-o',str(binary)],tmp)
             check('actual '+src,command([str(binary)],tmp),expected)
         else:out.append(dict(name=src,status='not-run',reason=tool+' not installed'))
+    if shutil.which('gcc'):
+        feature=command(['gcc','-E','-DFEATURE=1',str(here/'feature.c')],tmp)
+        check('preprocessor feature 1','return 10;' in feature and 'return 20;' not in feature,True)
+        feature=command(['gcc','-E','-DFEATURE=0',str(here/'feature.c')],tmp)
+        check('preprocessor feature 0','return 20;' in feature and 'return 10;' not in feature,True)
+    if shutil.which('g++'):
+        binary=tmp/('cdt.exe' if sys.platform=='win32' else 'cdt')
+        command(['g++','-I'+str(here/'cdt-project/include'),str(here/'cdt-project/src/main.cpp'),'-o',str(binary)],tmp)
+        check('CDT project command line',command([str(binary)],tmp),'5')
     if shutil.which('javac') and shutil.which('java') and shutil.which('javap'):
         command(['javac','-g','-d',str(tmp),str(here/'Sample.java')],tmp)
         check('actual Java output',command(['java','-cp',str(tmp),'Sample'],tmp),'5')

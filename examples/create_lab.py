@@ -3,7 +3,7 @@ from subprocess import run
 import argparse, shutil
 
 p=argparse.ArgumentParser(description='Создать новый изолированный учебный стенд')
-p.add_argument('kind',choices=['git-index','git-merge'])
+p.add_argument('kind',choices=['git-index','git-merge','git-bisect'])
 p.add_argument('path',type=Path)
 a=p.parse_args()
 if a.path.exists():raise SystemExit('Каталог уже существует. Выберите новое имя; содержимое не изменялось.')
@@ -20,6 +20,15 @@ def call(*args):
     if r.returncode:raise SystemExit(r.stderr)
     return r.stdout
 call('init','-q','-b','main');call('config','user.name',name);call('config','user.email',email)
+if a.kind=='git-bisect':
+    (a.path/'check.py').write_text('from runpy import run_path\ntotal = run_path("calc.py")["total"]\nassert total(120, 3) == 360\nprint("OK")\n',encoding='utf-8')
+    for i,label in enumerate('ABCDEFGH'):
+        expression='price * qty' if i<5 else 'price + qty'
+        (a.path/'calc.py').write_text('def total(price, qty):\n    return '+expression+'\n',encoding='utf-8')
+        (a.path/'revision.txt').write_text(label+'\n',encoding='utf-8')
+        call('add','calc.py','check.py','revision.txt');call('commit','-qm','Учебная редакция '+label);call('tag',label)
+    print('Создана история A–H. Тест: python check.py. Первый дефект — F.')
+    raise SystemExit(0)
 if a.kind=='git-merge':
     file=a.path/'settings.txt';file.write_bytes(b'limit = 10\n')
     call('add','settings.txt');call('commit','-qm','Общая настройка')
