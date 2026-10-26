@@ -1,0 +1,9 @@
+node_modules/
+dist/
+output/
+__pycache__/
+*.tsbuildinfo
+.playwright-cli/
+out/
+examples/**/target/
+lab-*/

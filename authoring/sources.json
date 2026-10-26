@@ -1,0 +1,70 @@
+{
+  "primary": [
+    {
+      "citation": "Цехановский В. В., Водяхо А. И. Проектирование информационных систем: архитектуры и платформы. Москва: Ай Пи Ар Медиа, 2023. 240 с. ISBN 978-5-4497-1786-3. IPR СМАРТ; доступ по учётной записи.",
+      "url": "https://www.iprbookshop.ru/books/123568/details"
+    },
+    {
+      "citation": "Грекул В. И., Денищенко Г. Н., Коровкина Н. Л. Проектирование информационных систем. 4-е изд. Москва: ИНТУИТ, Ай Пи Ар Медиа, 2024. 299 с. ISBN 978-5-4497-3335-1. IPR СМАРТ; доступ по учётной записи.",
+      "url": "https://www.iprbookshop.ru/books/142298/details"
+    }
+  ],
+  "additional": {
+    "citation": "Достовалов Д. Н., Лауферман О. В. Объектно-ориентированный анализ и проектирование. Задачи и примеры на C++. Новосибирск: НГТУ, 2022. 74 с. ISBN 978-5-7782-4708-6. IPR СМАРТ; доступ по учётной записи.",
+    "url": "https://www.iprbookshop.ru/books/126577/details"
+  },
+  "technical": {
+    "git": [
+      "Чакон С., Страуб Б. Pro Git. 2-е изд. Разделы об индексе, ветках и работе с историей.",
+      "https://git-scm.com/book/ru/v2"
+    ],
+    "review": [
+      "Google Engineering Practices. Code Review Developer Guide: предмет проверки, контекст и повторное ревью.",
+      "https://google.github.io/eng-practices/review/"
+    ],
+    "analysis": [
+      "IEEE Computer Society. Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0a. Software Quality; Software Testing; Software Engineering Models and Methods.",
+      "https://www.computer.org/education/bodies-of-knowledge/software-engineering"
+    ],
+    "jdk": [
+      "Oracle. JDK 25 Tool Specifications: javac, java, javap. Документация инструментов Java.",
+      "https://docs.oracle.com/en/java/javase/25/docs/specs/man/index.html"
+    ],
+    "jdk-tools": [
+      "Oracle. JDK 25 Tool Specifications: jdeps, jcmd, jfr. Возможности и ограничения диагностических команд.",
+      "https://docs.oracle.com/en/java/javase/25/docs/specs/man/index.html"
+    ],
+    "cpp": [
+      "GNU. The C Preprocessor: Macros; Conditional Syntax; Preprocessor Output.",
+      "https://gcc.gnu.org/onlinedocs/cpp/"
+    ],
+    "cdt": [
+      "Eclipse Foundation. C/C++ Development User Guide: проект, индексатор, сборка и отладка.",
+      "https://help.eclipse.org/latest/topic/org.eclipse.cdt.doc.user/getting_started/cdt_o_tutorial.htm"
+    ],
+    "hooks": [
+      "Git. githooks: события, локальные и серверные hooks, условия запуска.",
+      "https://git-scm.com/docs/githooks"
+    ],
+    "vcs": [
+      "Apache Subversion. Documentation; Git. Pro Git. Модели истории и рабочей копии.",
+      "https://subversion.apache.org/docs/"
+    ],
+    "linux": [
+      "Linux man-pages. inode(7), path_resolution(7), chmod(2), umask(2): права и разрешение путей.",
+      "https://www.kernel.org/doc/man-pages/"
+    ],
+    "ide": [
+      "Apache Maven. Introduction to the Build Lifecycle. Воспроизводимый процесс сборки вне IDE.",
+      "https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html"
+    ],
+    "gdb": [
+      "GNU. Debugging with GDB: Compilation; Stopping; Examining Data.",
+      "https://sourceware.org/gdb/current/onlinedocs/gdb.html/"
+    ],
+    "netbeans": [
+      "Apache NetBeans. Java Quick Start Tutorial; Apache Maven — запуск и модель Java-проекта.",
+      "https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart/"
+    ]
+  }
+}

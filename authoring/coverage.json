@@ -1,0 +1,1484 @@
+[
+  {
+    "lectureId": "s05-01-team-git",
+    "question": 1,
+    "title": "Как команда согласует одну поставку",
+    "slideIds": [
+      "s05-01-team-git-s006",
+      "s05-01-team-git-s007",
+      "s05-01-team-git-s008",
+      "s05-01-team-git-s009",
+      "s05-01-team-git-s010",
+      "s05-01-team-git-s011",
+      "s05-01-team-git-s012",
+      "s05-01-team-git-s013",
+      "s05-01-team-git-s014",
+      "s05-01-team-git-s015",
+      "s05-01-team-git-s016",
+      "s05-01-team-git-s017",
+      "s05-01-team-git-s018",
+      "s05-01-team-git-s019",
+      "s05-01-team-git-s020",
+      "s05-01-team-git-s021",
+      "s05-01-team-git-s022",
+      "s05-01-team-git-s023"
+    ],
+    "exampleModel": "s05-01-team-git-q1-example",
+    "practiceModel": "s05-01-team-git-q1-practice",
+    "taskIds": [
+      "s05-01-team-git-q1-t1",
+      "s05-01-team-git-q1-t2",
+      "s05-01-team-git-q1-t3",
+      "s05-01-team-git-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-01-team-git-s013",
+      "s05-01-team-git-s017"
+    ],
+    "contextSlideId": "s05-01-team-git-s007"
+  },
+  {
+    "lectureId": "s05-01-team-git",
+    "question": 2,
+    "title": "Какие состояния хранит Git",
+    "slideIds": [
+      "s05-01-team-git-s024",
+      "s05-01-team-git-s025",
+      "s05-01-team-git-s026",
+      "s05-01-team-git-s027",
+      "s05-01-team-git-s028",
+      "s05-01-team-git-s029",
+      "s05-01-team-git-s030",
+      "s05-01-team-git-s031",
+      "s05-01-team-git-s032",
+      "s05-01-team-git-s033",
+      "s05-01-team-git-s034",
+      "s05-01-team-git-s035",
+      "s05-01-team-git-s036",
+      "s05-01-team-git-s037",
+      "s05-01-team-git-s038",
+      "s05-01-team-git-s039",
+      "s05-01-team-git-s040",
+      "s05-01-team-git-s041"
+    ],
+    "exampleModel": "s05-01-team-git-q2-example",
+    "practiceModel": "s05-01-team-git-q2-practice",
+    "taskIds": [
+      "s05-01-team-git-q2-t5",
+      "s05-01-team-git-q2-t6",
+      "s05-01-team-git-q2-t7",
+      "s05-01-team-git-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-01-team-git-s031",
+      "s05-01-team-git-s035"
+    ],
+    "contextSlideId": "s05-01-team-git-s025"
+  },
+  {
+    "lectureId": "s05-01-team-git",
+    "question": 3,
+    "title": "Как объединяются ветки и разрешается конфликт",
+    "slideIds": [
+      "s05-01-team-git-s042",
+      "s05-01-team-git-s043",
+      "s05-01-team-git-s044",
+      "s05-01-team-git-s045",
+      "s05-01-team-git-s046",
+      "s05-01-team-git-s047",
+      "s05-01-team-git-s048",
+      "s05-01-team-git-s049",
+      "s05-01-team-git-s050",
+      "s05-01-team-git-s051",
+      "s05-01-team-git-s052",
+      "s05-01-team-git-s053",
+      "s05-01-team-git-s054",
+      "s05-01-team-git-s055",
+      "s05-01-team-git-s056",
+      "s05-01-team-git-s057",
+      "s05-01-team-git-s058",
+      "s05-01-team-git-s059"
+    ],
+    "exampleModel": "s05-01-team-git-q3-example",
+    "practiceModel": "s05-01-team-git-q3-practice",
+    "taskIds": [
+      "s05-01-team-git-q3-t9",
+      "s05-01-team-git-q3-t10",
+      "s05-01-team-git-q3-t11",
+      "s05-01-team-git-q3-t12"
+    ],
+    "visualSlideIds": [
+      "s05-01-team-git-s049",
+      "s05-01-team-git-s053"
+    ],
+    "contextSlideId": "s05-01-team-git-s043"
+  },
+  {
+    "lectureId": "s05-02-review",
+    "question": 1,
+    "title": "Что именно проверяют при ревью",
+    "slideIds": [
+      "s05-02-review-s006",
+      "s05-02-review-s007",
+      "s05-02-review-s008",
+      "s05-02-review-s009",
+      "s05-02-review-s010",
+      "s05-02-review-s011",
+      "s05-02-review-s012",
+      "s05-02-review-s013",
+      "s05-02-review-s014",
+      "s05-02-review-s015",
+      "s05-02-review-s016",
+      "s05-02-review-s017",
+      "s05-02-review-s018",
+      "s05-02-review-s019",
+      "s05-02-review-s020",
+      "s05-02-review-s021",
+      "s05-02-review-s022",
+      "s05-02-review-s023"
+    ],
+    "exampleModel": "s05-02-review-q1-example",
+    "practiceModel": "s05-02-review-q1-practice",
+    "taskIds": [
+      "s05-02-review-q1-t1",
+      "s05-02-review-q1-t2",
+      "s05-02-review-q1-t3",
+      "s05-02-review-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-02-review-s013",
+      "s05-02-review-s017"
+    ],
+    "contextSlideId": "s05-02-review-s007"
+  },
+  {
+    "lectureId": "s05-02-review",
+    "question": 2,
+    "title": "Как проходит и завершается ревью",
+    "slideIds": [
+      "s05-02-review-s024",
+      "s05-02-review-s025",
+      "s05-02-review-s026",
+      "s05-02-review-s027",
+      "s05-02-review-s028",
+      "s05-02-review-s029",
+      "s05-02-review-s030",
+      "s05-02-review-s031",
+      "s05-02-review-s032",
+      "s05-02-review-s033",
+      "s05-02-review-s034",
+      "s05-02-review-s035",
+      "s05-02-review-s036",
+      "s05-02-review-s037",
+      "s05-02-review-s038",
+      "s05-02-review-s039",
+      "s05-02-review-s040",
+      "s05-02-review-s041"
+    ],
+    "exampleModel": "s05-02-review-q2-example",
+    "practiceModel": "s05-02-review-q2-practice",
+    "taskIds": [
+      "s05-02-review-q2-t5",
+      "s05-02-review-q2-t6",
+      "s05-02-review-q2-t7",
+      "s05-02-review-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-02-review-s031",
+      "s05-02-review-s035"
+    ],
+    "contextSlideId": "s05-02-review-s025"
+  },
+  {
+    "lectureId": "s05-03-planning",
+    "question": 1,
+    "title": "Как выбрать объём и участников",
+    "slideIds": [
+      "s05-03-planning-s006",
+      "s05-03-planning-s007",
+      "s05-03-planning-s008",
+      "s05-03-planning-s009",
+      "s05-03-planning-s010",
+      "s05-03-planning-s011",
+      "s05-03-planning-s012",
+      "s05-03-planning-s013",
+      "s05-03-planning-s014",
+      "s05-03-planning-s015",
+      "s05-03-planning-s016",
+      "s05-03-planning-s017",
+      "s05-03-planning-s018",
+      "s05-03-planning-s019",
+      "s05-03-planning-s020",
+      "s05-03-planning-s021",
+      "s05-03-planning-s022",
+      "s05-03-planning-s023"
+    ],
+    "exampleModel": "s05-03-planning-q1-example",
+    "practiceModel": "s05-03-planning-q1-practice",
+    "taskIds": [
+      "s05-03-planning-q1-t1",
+      "s05-03-planning-q1-t2",
+      "s05-03-planning-q1-t3",
+      "s05-03-planning-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-03-planning-s013",
+      "s05-03-planning-s017"
+    ],
+    "contextSlideId": "s05-03-planning-s007"
+  },
+  {
+    "lectureId": "s05-03-planning",
+    "question": 2,
+    "title": "Как спланировать проверяемый результат",
+    "slideIds": [
+      "s05-03-planning-s024",
+      "s05-03-planning-s025",
+      "s05-03-planning-s026",
+      "s05-03-planning-s027",
+      "s05-03-planning-s028",
+      "s05-03-planning-s029",
+      "s05-03-planning-s030",
+      "s05-03-planning-s031",
+      "s05-03-planning-s032",
+      "s05-03-planning-s033",
+      "s05-03-planning-s034",
+      "s05-03-planning-s035",
+      "s05-03-planning-s036",
+      "s05-03-planning-s037",
+      "s05-03-planning-s038",
+      "s05-03-planning-s039",
+      "s05-03-planning-s040",
+      "s05-03-planning-s041"
+    ],
+    "exampleModel": "s05-03-planning-q2-example",
+    "practiceModel": "s05-03-planning-q2-practice",
+    "taskIds": [
+      "s05-03-planning-q2-t5",
+      "s05-03-planning-q2-t6",
+      "s05-03-planning-q2-t7",
+      "s05-03-planning-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-03-planning-s031",
+      "s05-03-planning-s035"
+    ],
+    "contextSlideId": "s05-03-planning-s025"
+  },
+  {
+    "lectureId": "s05-04-analysis",
+    "question": 1,
+    "title": "Как связать цель анализа с данными",
+    "slideIds": [
+      "s05-04-analysis-s006",
+      "s05-04-analysis-s007",
+      "s05-04-analysis-s008",
+      "s05-04-analysis-s009",
+      "s05-04-analysis-s010",
+      "s05-04-analysis-s011",
+      "s05-04-analysis-s012",
+      "s05-04-analysis-s013",
+      "s05-04-analysis-s014",
+      "s05-04-analysis-s015",
+      "s05-04-analysis-s016",
+      "s05-04-analysis-s017",
+      "s05-04-analysis-s018",
+      "s05-04-analysis-s019",
+      "s05-04-analysis-s020",
+      "s05-04-analysis-s021",
+      "s05-04-analysis-s022",
+      "s05-04-analysis-s023"
+    ],
+    "exampleModel": "s05-04-analysis-q1-example",
+    "practiceModel": "s05-04-analysis-q1-practice",
+    "taskIds": [
+      "s05-04-analysis-q1-t1",
+      "s05-04-analysis-q1-t2",
+      "s05-04-analysis-q1-t3",
+      "s05-04-analysis-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-04-analysis-s013",
+      "s05-04-analysis-s017"
+    ],
+    "contextSlideId": "s05-04-analysis-s007"
+  },
+  {
+    "lectureId": "s05-04-analysis",
+    "question": 2,
+    "title": "Как проверять корректность вывода",
+    "slideIds": [
+      "s05-04-analysis-s024",
+      "s05-04-analysis-s025",
+      "s05-04-analysis-s026",
+      "s05-04-analysis-s027",
+      "s05-04-analysis-s028",
+      "s05-04-analysis-s029",
+      "s05-04-analysis-s030",
+      "s05-04-analysis-s031",
+      "s05-04-analysis-s032",
+      "s05-04-analysis-s033",
+      "s05-04-analysis-s034",
+      "s05-04-analysis-s035",
+      "s05-04-analysis-s036",
+      "s05-04-analysis-s037",
+      "s05-04-analysis-s038",
+      "s05-04-analysis-s039",
+      "s05-04-analysis-s040",
+      "s05-04-analysis-s041"
+    ],
+    "exampleModel": "s05-04-analysis-q2-example",
+    "practiceModel": "s05-04-analysis-q2-practice",
+    "taskIds": [
+      "s05-04-analysis-q2-t5",
+      "s05-04-analysis-q2-t6",
+      "s05-04-analysis-q2-t7",
+      "s05-04-analysis-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-04-analysis-s031",
+      "s05-04-analysis-s035"
+    ],
+    "contextSlideId": "s05-04-analysis-s025"
+  },
+  {
+    "lectureId": "s05-05-criteria",
+    "question": 1,
+    "title": "Как построить честные критерии",
+    "slideIds": [
+      "s05-05-criteria-s006",
+      "s05-05-criteria-s007",
+      "s05-05-criteria-s008",
+      "s05-05-criteria-s009",
+      "s05-05-criteria-s010",
+      "s05-05-criteria-s011",
+      "s05-05-criteria-s012",
+      "s05-05-criteria-s013",
+      "s05-05-criteria-s014",
+      "s05-05-criteria-s015",
+      "s05-05-criteria-s016",
+      "s05-05-criteria-s017",
+      "s05-05-criteria-s018",
+      "s05-05-criteria-s019",
+      "s05-05-criteria-s020",
+      "s05-05-criteria-s021",
+      "s05-05-criteria-s022",
+      "s05-05-criteria-s023"
+    ],
+    "exampleModel": "s05-05-criteria-q1-example",
+    "practiceModel": "s05-05-criteria-q1-practice",
+    "taskIds": [
+      "s05-05-criteria-q1-t1",
+      "s05-05-criteria-q1-t2",
+      "s05-05-criteria-q1-t3",
+      "s05-05-criteria-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-05-criteria-s013",
+      "s05-05-criteria-s017"
+    ],
+    "contextSlideId": "s05-05-criteria-s007"
+  },
+  {
+    "lectureId": "s05-05-criteria",
+    "question": 2,
+    "title": "Как показать расчёт и устойчивость выбора",
+    "slideIds": [
+      "s05-05-criteria-s024",
+      "s05-05-criteria-s025",
+      "s05-05-criteria-s026",
+      "s05-05-criteria-s027",
+      "s05-05-criteria-s028",
+      "s05-05-criteria-s029",
+      "s05-05-criteria-s030",
+      "s05-05-criteria-s031",
+      "s05-05-criteria-s032",
+      "s05-05-criteria-s033",
+      "s05-05-criteria-s034",
+      "s05-05-criteria-s035",
+      "s05-05-criteria-s036",
+      "s05-05-criteria-s037",
+      "s05-05-criteria-s038",
+      "s05-05-criteria-s039",
+      "s05-05-criteria-s040",
+      "s05-05-criteria-s041"
+    ],
+    "exampleModel": "s05-05-criteria-q2-example",
+    "practiceModel": "s05-05-criteria-q2-practice",
+    "taskIds": [
+      "s05-05-criteria-q2-t5",
+      "s05-05-criteria-q2-t6",
+      "s05-05-criteria-q2-t7",
+      "s05-05-criteria-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-05-criteria-s031",
+      "s05-05-criteria-s035"
+    ],
+    "contextSlideId": "s05-05-criteria-s025"
+  },
+  {
+    "lectureId": "s05-06-comparison",
+    "question": 1,
+    "title": "Как сравнить продукты на одном сценарии",
+    "slideIds": [
+      "s05-06-comparison-s006",
+      "s05-06-comparison-s007",
+      "s05-06-comparison-s008",
+      "s05-06-comparison-s009",
+      "s05-06-comparison-s010",
+      "s05-06-comparison-s011",
+      "s05-06-comparison-s012",
+      "s05-06-comparison-s013",
+      "s05-06-comparison-s014",
+      "s05-06-comparison-s015",
+      "s05-06-comparison-s016",
+      "s05-06-comparison-s017",
+      "s05-06-comparison-s018",
+      "s05-06-comparison-s019",
+      "s05-06-comparison-s020",
+      "s05-06-comparison-s021",
+      "s05-06-comparison-s022",
+      "s05-06-comparison-s023"
+    ],
+    "exampleModel": "s05-06-comparison-q1-example",
+    "practiceModel": "s05-06-comparison-q1-practice",
+    "taskIds": [
+      "s05-06-comparison-q1-t1",
+      "s05-06-comparison-q1-t2",
+      "s05-06-comparison-q1-t3",
+      "s05-06-comparison-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-06-comparison-s013",
+      "s05-06-comparison-s017"
+    ],
+    "contextSlideId": "s05-06-comparison-s007"
+  },
+  {
+    "lectureId": "s05-06-comparison",
+    "question": 2,
+    "title": "Как оформить рекомендацию и её границы",
+    "slideIds": [
+      "s05-06-comparison-s024",
+      "s05-06-comparison-s025",
+      "s05-06-comparison-s026",
+      "s05-06-comparison-s027",
+      "s05-06-comparison-s028",
+      "s05-06-comparison-s029",
+      "s05-06-comparison-s030",
+      "s05-06-comparison-s031",
+      "s05-06-comparison-s032",
+      "s05-06-comparison-s033",
+      "s05-06-comparison-s034",
+      "s05-06-comparison-s035",
+      "s05-06-comparison-s036",
+      "s05-06-comparison-s037",
+      "s05-06-comparison-s038",
+      "s05-06-comparison-s039",
+      "s05-06-comparison-s040",
+      "s05-06-comparison-s041"
+    ],
+    "exampleModel": "s05-06-comparison-q2-example",
+    "practiceModel": "s05-06-comparison-q2-practice",
+    "taskIds": [
+      "s05-06-comparison-q2-t5",
+      "s05-06-comparison-q2-t6",
+      "s05-06-comparison-q2-t7",
+      "s05-06-comparison-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-06-comparison-s031",
+      "s05-06-comparison-s035"
+    ],
+    "contextSlideId": "s05-06-comparison-s025"
+  },
+  {
+    "lectureId": "s05-07-code-study",
+    "question": 1,
+    "title": "Как восстановить путь выполнения",
+    "slideIds": [
+      "s05-07-code-study-s006",
+      "s05-07-code-study-s007",
+      "s05-07-code-study-s008",
+      "s05-07-code-study-s009",
+      "s05-07-code-study-s010",
+      "s05-07-code-study-s011",
+      "s05-07-code-study-s012",
+      "s05-07-code-study-s013",
+      "s05-07-code-study-s014",
+      "s05-07-code-study-s015",
+      "s05-07-code-study-s016",
+      "s05-07-code-study-s017",
+      "s05-07-code-study-s018",
+      "s05-07-code-study-s019",
+      "s05-07-code-study-s020",
+      "s05-07-code-study-s021",
+      "s05-07-code-study-s022",
+      "s05-07-code-study-s023"
+    ],
+    "exampleModel": "s05-07-code-study-q1-example",
+    "practiceModel": "s05-07-code-study-q1-practice",
+    "taskIds": [
+      "s05-07-code-study-q1-t1",
+      "s05-07-code-study-q1-t2",
+      "s05-07-code-study-q1-t3",
+      "s05-07-code-study-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-07-code-study-s013",
+      "s05-07-code-study-s017"
+    ],
+    "contextSlideId": "s05-07-code-study-s007"
+  },
+  {
+    "lectureId": "s05-07-code-study",
+    "question": 2,
+    "title": "Как выбрать метод исследования дефекта",
+    "slideIds": [
+      "s05-07-code-study-s024",
+      "s05-07-code-study-s025",
+      "s05-07-code-study-s026",
+      "s05-07-code-study-s027",
+      "s05-07-code-study-s028",
+      "s05-07-code-study-s029",
+      "s05-07-code-study-s030",
+      "s05-07-code-study-s031",
+      "s05-07-code-study-s032",
+      "s05-07-code-study-s033",
+      "s05-07-code-study-s034",
+      "s05-07-code-study-s035",
+      "s05-07-code-study-s036",
+      "s05-07-code-study-s037",
+      "s05-07-code-study-s038",
+      "s05-07-code-study-s039",
+      "s05-07-code-study-s040",
+      "s05-07-code-study-s041"
+    ],
+    "exampleModel": "s05-07-code-study-q2-example",
+    "practiceModel": "s05-07-code-study-q2-practice",
+    "taskIds": [
+      "s05-07-code-study-q2-t5",
+      "s05-07-code-study-q2-t6",
+      "s05-07-code-study-q2-t7",
+      "s05-07-code-study-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-07-code-study-s031",
+      "s05-07-code-study-s035"
+    ],
+    "contextSlideId": "s05-07-code-study-s025"
+  },
+  {
+    "lectureId": "s05-08-change-control",
+    "question": 1,
+    "title": "Как провести изменение от запроса до слияния",
+    "slideIds": [
+      "s05-08-change-control-s006",
+      "s05-08-change-control-s007",
+      "s05-08-change-control-s008",
+      "s05-08-change-control-s009",
+      "s05-08-change-control-s010",
+      "s05-08-change-control-s011",
+      "s05-08-change-control-s012",
+      "s05-08-change-control-s013",
+      "s05-08-change-control-s014",
+      "s05-08-change-control-s015",
+      "s05-08-change-control-s016",
+      "s05-08-change-control-s017",
+      "s05-08-change-control-s018",
+      "s05-08-change-control-s019",
+      "s05-08-change-control-s020",
+      "s05-08-change-control-s021",
+      "s05-08-change-control-s022",
+      "s05-08-change-control-s023"
+    ],
+    "exampleModel": "s05-08-change-control-q1-example",
+    "practiceModel": "s05-08-change-control-q1-practice",
+    "taskIds": [
+      "s05-08-change-control-q1-t1",
+      "s05-08-change-control-q1-t2",
+      "s05-08-change-control-q1-t3",
+      "s05-08-change-control-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-08-change-control-s013",
+      "s05-08-change-control-s017"
+    ],
+    "contextSlideId": "s05-08-change-control-s007"
+  },
+  {
+    "lectureId": "s05-08-change-control",
+    "question": 2,
+    "title": "Как исследовать историю и отменить дефект",
+    "slideIds": [
+      "s05-08-change-control-s024",
+      "s05-08-change-control-s025",
+      "s05-08-change-control-s026",
+      "s05-08-change-control-s027",
+      "s05-08-change-control-s028",
+      "s05-08-change-control-s029",
+      "s05-08-change-control-s030",
+      "s05-08-change-control-s031",
+      "s05-08-change-control-s032",
+      "s05-08-change-control-s033",
+      "s05-08-change-control-s034",
+      "s05-08-change-control-s035",
+      "s05-08-change-control-s036",
+      "s05-08-change-control-s037",
+      "s05-08-change-control-s038",
+      "s05-08-change-control-s039",
+      "s05-08-change-control-s040",
+      "s05-08-change-control-s041"
+    ],
+    "exampleModel": "s05-08-change-control-q2-example",
+    "practiceModel": "s05-08-change-control-q2-practice",
+    "taskIds": [
+      "s05-08-change-control-q2-t5",
+      "s05-08-change-control-q2-t6",
+      "s05-08-change-control-q2-t7",
+      "s05-08-change-control-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-08-change-control-s031",
+      "s05-08-change-control-s035"
+    ],
+    "contextSlideId": "s05-08-change-control-s025"
+  },
+  {
+    "lectureId": "s05-09-reverse",
+    "question": 1,
+    "title": "Как восстановить модель и поток данных",
+    "slideIds": [
+      "s05-09-reverse-s006",
+      "s05-09-reverse-s007",
+      "s05-09-reverse-s008",
+      "s05-09-reverse-s009",
+      "s05-09-reverse-s010",
+      "s05-09-reverse-s011",
+      "s05-09-reverse-s012",
+      "s05-09-reverse-s013",
+      "s05-09-reverse-s014",
+      "s05-09-reverse-s015",
+      "s05-09-reverse-s016",
+      "s05-09-reverse-s017",
+      "s05-09-reverse-s018",
+      "s05-09-reverse-s019",
+      "s05-09-reverse-s020",
+      "s05-09-reverse-s021",
+      "s05-09-reverse-s022",
+      "s05-09-reverse-s023"
+    ],
+    "exampleModel": "s05-09-reverse-q1-example",
+    "practiceModel": "s05-09-reverse-q1-practice",
+    "taskIds": [
+      "s05-09-reverse-q1-t1",
+      "s05-09-reverse-q1-t2",
+      "s05-09-reverse-q1-t3",
+      "s05-09-reverse-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s05-09-reverse-s013",
+      "s05-09-reverse-s017"
+    ],
+    "contextSlideId": "s05-09-reverse-s007"
+  },
+  {
+    "lectureId": "s05-09-reverse",
+    "question": 2,
+    "title": "Что можно узнать из дизассемблирования",
+    "slideIds": [
+      "s05-09-reverse-s024",
+      "s05-09-reverse-s025",
+      "s05-09-reverse-s026",
+      "s05-09-reverse-s027",
+      "s05-09-reverse-s028",
+      "s05-09-reverse-s029",
+      "s05-09-reverse-s030",
+      "s05-09-reverse-s031",
+      "s05-09-reverse-s032",
+      "s05-09-reverse-s033",
+      "s05-09-reverse-s034",
+      "s05-09-reverse-s035",
+      "s05-09-reverse-s036",
+      "s05-09-reverse-s037",
+      "s05-09-reverse-s038",
+      "s05-09-reverse-s039",
+      "s05-09-reverse-s040",
+      "s05-09-reverse-s041"
+    ],
+    "exampleModel": "s05-09-reverse-q2-example",
+    "practiceModel": "s05-09-reverse-q2-practice",
+    "taskIds": [
+      "s05-09-reverse-q2-t5",
+      "s05-09-reverse-q2-t6",
+      "s05-09-reverse-q2-t7",
+      "s05-09-reverse-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s05-09-reverse-s031",
+      "s05-09-reverse-s035"
+    ],
+    "contextSlideId": "s05-09-reverse-s025"
+  },
+  {
+    "lectureId": "s06-01-review-tools",
+    "question": 1,
+    "title": "Как выбрать инструмент под операцию ревью",
+    "slideIds": [
+      "s06-01-review-tools-s006",
+      "s06-01-review-tools-s007",
+      "s06-01-review-tools-s008",
+      "s06-01-review-tools-s009",
+      "s06-01-review-tools-s010",
+      "s06-01-review-tools-s011",
+      "s06-01-review-tools-s012",
+      "s06-01-review-tools-s013",
+      "s06-01-review-tools-s014",
+      "s06-01-review-tools-s015",
+      "s06-01-review-tools-s016",
+      "s06-01-review-tools-s017",
+      "s06-01-review-tools-s018",
+      "s06-01-review-tools-s019",
+      "s06-01-review-tools-s020",
+      "s06-01-review-tools-s021",
+      "s06-01-review-tools-s022",
+      "s06-01-review-tools-s023"
+    ],
+    "exampleModel": "s06-01-review-tools-q1-example",
+    "practiceModel": "s06-01-review-tools-q1-practice",
+    "taskIds": [
+      "s06-01-review-tools-q1-t1",
+      "s06-01-review-tools-q1-t2",
+      "s06-01-review-tools-q1-t3",
+      "s06-01-review-tools-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-01-review-tools-s013",
+      "s06-01-review-tools-s017"
+    ],
+    "contextSlideId": "s06-01-review-tools-s007"
+  },
+  {
+    "lectureId": "s06-01-review-tools",
+    "question": 2,
+    "title": "Где заканчивается автоматический помощник",
+    "slideIds": [
+      "s06-01-review-tools-s024",
+      "s06-01-review-tools-s025",
+      "s06-01-review-tools-s026",
+      "s06-01-review-tools-s027",
+      "s06-01-review-tools-s028",
+      "s06-01-review-tools-s029",
+      "s06-01-review-tools-s030",
+      "s06-01-review-tools-s031",
+      "s06-01-review-tools-s032",
+      "s06-01-review-tools-s033",
+      "s06-01-review-tools-s034",
+      "s06-01-review-tools-s035",
+      "s06-01-review-tools-s036",
+      "s06-01-review-tools-s037",
+      "s06-01-review-tools-s038",
+      "s06-01-review-tools-s039",
+      "s06-01-review-tools-s040",
+      "s06-01-review-tools-s041"
+    ],
+    "exampleModel": "s06-01-review-tools-q2-example",
+    "practiceModel": "s06-01-review-tools-q2-practice",
+    "taskIds": [
+      "s06-01-review-tools-q2-t5",
+      "s06-01-review-tools-q2-t6",
+      "s06-01-review-tools-q2-t7",
+      "s06-01-review-tools-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-01-review-tools-s031",
+      "s06-01-review-tools-s035"
+    ],
+    "contextSlideId": "s06-01-review-tools-s025"
+  },
+  {
+    "lectureId": "s06-02-preprocessing",
+    "question": 1,
+    "title": "Как препроцессор меняет исследуемый текст",
+    "slideIds": [
+      "s06-02-preprocessing-s006",
+      "s06-02-preprocessing-s007",
+      "s06-02-preprocessing-s008",
+      "s06-02-preprocessing-s009",
+      "s06-02-preprocessing-s010",
+      "s06-02-preprocessing-s011",
+      "s06-02-preprocessing-s012",
+      "s06-02-preprocessing-s013",
+      "s06-02-preprocessing-s014",
+      "s06-02-preprocessing-s015",
+      "s06-02-preprocessing-s016",
+      "s06-02-preprocessing-s017",
+      "s06-02-preprocessing-s018",
+      "s06-02-preprocessing-s019",
+      "s06-02-preprocessing-s020",
+      "s06-02-preprocessing-s021",
+      "s06-02-preprocessing-s022",
+      "s06-02-preprocessing-s023"
+    ],
+    "exampleModel": "s06-02-preprocessing-q1-example",
+    "practiceModel": "s06-02-preprocessing-q1-practice",
+    "taskIds": [
+      "s06-02-preprocessing-q1-t1",
+      "s06-02-preprocessing-q1-t2",
+      "s06-02-preprocessing-q1-t3",
+      "s06-02-preprocessing-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-02-preprocessing-s013",
+      "s06-02-preprocessing-s017"
+    ],
+    "contextSlideId": "s06-02-preprocessing-s007"
+  },
+  {
+    "lectureId": "s06-02-preprocessing",
+    "question": 2,
+    "title": "Почему IDE и сборка видят разный код",
+    "slideIds": [
+      "s06-02-preprocessing-s024",
+      "s06-02-preprocessing-s025",
+      "s06-02-preprocessing-s026",
+      "s06-02-preprocessing-s027",
+      "s06-02-preprocessing-s028",
+      "s06-02-preprocessing-s029",
+      "s06-02-preprocessing-s030",
+      "s06-02-preprocessing-s031",
+      "s06-02-preprocessing-s032",
+      "s06-02-preprocessing-s033",
+      "s06-02-preprocessing-s034",
+      "s06-02-preprocessing-s035",
+      "s06-02-preprocessing-s036",
+      "s06-02-preprocessing-s037",
+      "s06-02-preprocessing-s038",
+      "s06-02-preprocessing-s039",
+      "s06-02-preprocessing-s040",
+      "s06-02-preprocessing-s041"
+    ],
+    "exampleModel": "s06-02-preprocessing-q2-example",
+    "practiceModel": "s06-02-preprocessing-q2-practice",
+    "taskIds": [
+      "s06-02-preprocessing-q2-t5",
+      "s06-02-preprocessing-q2-t6",
+      "s06-02-preprocessing-q2-t7",
+      "s06-02-preprocessing-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-02-preprocessing-s031",
+      "s06-02-preprocessing-s035"
+    ],
+    "contextSlideId": "s06-02-preprocessing-s025"
+  },
+  {
+    "lectureId": "s06-03-validation",
+    "question": 1,
+    "title": "Какие проверки выполнять локально",
+    "slideIds": [
+      "s06-03-validation-s006",
+      "s06-03-validation-s007",
+      "s06-03-validation-s008",
+      "s06-03-validation-s009",
+      "s06-03-validation-s010",
+      "s06-03-validation-s011",
+      "s06-03-validation-s012",
+      "s06-03-validation-s013",
+      "s06-03-validation-s014",
+      "s06-03-validation-s015",
+      "s06-03-validation-s016",
+      "s06-03-validation-s017",
+      "s06-03-validation-s018",
+      "s06-03-validation-s019",
+      "s06-03-validation-s020",
+      "s06-03-validation-s021",
+      "s06-03-validation-s022",
+      "s06-03-validation-s023"
+    ],
+    "exampleModel": "s06-03-validation-q1-example",
+    "practiceModel": "s06-03-validation-q1-practice",
+    "taskIds": [
+      "s06-03-validation-q1-t1",
+      "s06-03-validation-q1-t2",
+      "s06-03-validation-q1-t3",
+      "s06-03-validation-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-03-validation-s013",
+      "s06-03-validation-s017"
+    ],
+    "contextSlideId": "s06-03-validation-s007"
+  },
+  {
+    "lectureId": "s06-03-validation",
+    "question": 2,
+    "title": "Как устроить независимый серверный контроль",
+    "slideIds": [
+      "s06-03-validation-s024",
+      "s06-03-validation-s025",
+      "s06-03-validation-s026",
+      "s06-03-validation-s027",
+      "s06-03-validation-s028",
+      "s06-03-validation-s029",
+      "s06-03-validation-s030",
+      "s06-03-validation-s031",
+      "s06-03-validation-s032",
+      "s06-03-validation-s033",
+      "s06-03-validation-s034",
+      "s06-03-validation-s035",
+      "s06-03-validation-s036",
+      "s06-03-validation-s037",
+      "s06-03-validation-s038",
+      "s06-03-validation-s039",
+      "s06-03-validation-s040",
+      "s06-03-validation-s041"
+    ],
+    "exampleModel": "s06-03-validation-q2-example",
+    "practiceModel": "s06-03-validation-q2-practice",
+    "taskIds": [
+      "s06-03-validation-q2-t5",
+      "s06-03-validation-q2-t6",
+      "s06-03-validation-q2-t7",
+      "s06-03-validation-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-03-validation-s031",
+      "s06-03-validation-s035"
+    ],
+    "contextSlideId": "s06-03-validation-s025"
+  },
+  {
+    "lectureId": "s06-04-vcs-compatibility",
+    "question": 1,
+    "title": "Как сопоставить Git и централизованную историю",
+    "slideIds": [
+      "s06-04-vcs-compatibility-s006",
+      "s06-04-vcs-compatibility-s007",
+      "s06-04-vcs-compatibility-s008",
+      "s06-04-vcs-compatibility-s009",
+      "s06-04-vcs-compatibility-s010",
+      "s06-04-vcs-compatibility-s011",
+      "s06-04-vcs-compatibility-s012",
+      "s06-04-vcs-compatibility-s013",
+      "s06-04-vcs-compatibility-s014",
+      "s06-04-vcs-compatibility-s015",
+      "s06-04-vcs-compatibility-s016",
+      "s06-04-vcs-compatibility-s017",
+      "s06-04-vcs-compatibility-s018",
+      "s06-04-vcs-compatibility-s019",
+      "s06-04-vcs-compatibility-s020",
+      "s06-04-vcs-compatibility-s021",
+      "s06-04-vcs-compatibility-s022",
+      "s06-04-vcs-compatibility-s023"
+    ],
+    "exampleModel": "s06-04-vcs-compatibility-q1-example",
+    "practiceModel": "s06-04-vcs-compatibility-q1-practice",
+    "taskIds": [
+      "s06-04-vcs-compatibility-q1-t1",
+      "s06-04-vcs-compatibility-q1-t2",
+      "s06-04-vcs-compatibility-q1-t3",
+      "s06-04-vcs-compatibility-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-04-vcs-compatibility-s013",
+      "s06-04-vcs-compatibility-s017"
+    ],
+    "contextSlideId": "s06-04-vcs-compatibility-s007"
+  },
+  {
+    "lectureId": "s06-04-vcs-compatibility",
+    "question": 2,
+    "title": "Как проверить совместимость интеграции",
+    "slideIds": [
+      "s06-04-vcs-compatibility-s024",
+      "s06-04-vcs-compatibility-s025",
+      "s06-04-vcs-compatibility-s026",
+      "s06-04-vcs-compatibility-s027",
+      "s06-04-vcs-compatibility-s028",
+      "s06-04-vcs-compatibility-s029",
+      "s06-04-vcs-compatibility-s030",
+      "s06-04-vcs-compatibility-s031",
+      "s06-04-vcs-compatibility-s032",
+      "s06-04-vcs-compatibility-s033",
+      "s06-04-vcs-compatibility-s034",
+      "s06-04-vcs-compatibility-s035",
+      "s06-04-vcs-compatibility-s036",
+      "s06-04-vcs-compatibility-s037",
+      "s06-04-vcs-compatibility-s038",
+      "s06-04-vcs-compatibility-s039",
+      "s06-04-vcs-compatibility-s040",
+      "s06-04-vcs-compatibility-s041"
+    ],
+    "exampleModel": "s06-04-vcs-compatibility-q2-example",
+    "practiceModel": "s06-04-vcs-compatibility-q2-practice",
+    "taskIds": [
+      "s06-04-vcs-compatibility-q2-t5",
+      "s06-04-vcs-compatibility-q2-t6",
+      "s06-04-vcs-compatibility-q2-t7",
+      "s06-04-vcs-compatibility-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-04-vcs-compatibility-s031",
+      "s06-04-vcs-compatibility-s035"
+    ],
+    "contextSlideId": "s06-04-vcs-compatibility-s025"
+  },
+  {
+    "lectureId": "s06-05-linux-access",
+    "question": 1,
+    "title": "Как права файлов влияют на проверку",
+    "slideIds": [
+      "s06-05-linux-access-s006",
+      "s06-05-linux-access-s007",
+      "s06-05-linux-access-s008",
+      "s06-05-linux-access-s009",
+      "s06-05-linux-access-s010",
+      "s06-05-linux-access-s011",
+      "s06-05-linux-access-s012",
+      "s06-05-linux-access-s013",
+      "s06-05-linux-access-s014",
+      "s06-05-linux-access-s015",
+      "s06-05-linux-access-s016",
+      "s06-05-linux-access-s017",
+      "s06-05-linux-access-s018",
+      "s06-05-linux-access-s019",
+      "s06-05-linux-access-s020",
+      "s06-05-linux-access-s021",
+      "s06-05-linux-access-s022",
+      "s06-05-linux-access-s023"
+    ],
+    "exampleModel": "s06-05-linux-access-q1-example",
+    "practiceModel": "s06-05-linux-access-q1-practice",
+    "taskIds": [
+      "s06-05-linux-access-q1-t1",
+      "s06-05-linux-access-q1-t2",
+      "s06-05-linux-access-q1-t3",
+      "s06-05-linux-access-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-05-linux-access-s013",
+      "s06-05-linux-access-s017"
+    ],
+    "contextSlideId": "s06-05-linux-access-s007"
+  },
+  {
+    "lectureId": "s06-05-linux-access",
+    "question": 2,
+    "title": "Как проверить доступ к репозиторию",
+    "slideIds": [
+      "s06-05-linux-access-s024",
+      "s06-05-linux-access-s025",
+      "s06-05-linux-access-s026",
+      "s06-05-linux-access-s027",
+      "s06-05-linux-access-s028",
+      "s06-05-linux-access-s029",
+      "s06-05-linux-access-s030",
+      "s06-05-linux-access-s031",
+      "s06-05-linux-access-s032",
+      "s06-05-linux-access-s033",
+      "s06-05-linux-access-s034",
+      "s06-05-linux-access-s035",
+      "s06-05-linux-access-s036",
+      "s06-05-linux-access-s037",
+      "s06-05-linux-access-s038",
+      "s06-05-linux-access-s039",
+      "s06-05-linux-access-s040",
+      "s06-05-linux-access-s041"
+    ],
+    "exampleModel": "s06-05-linux-access-q2-example",
+    "practiceModel": "s06-05-linux-access-q2-practice",
+    "taskIds": [
+      "s06-05-linux-access-q2-t5",
+      "s06-05-linux-access-q2-t6",
+      "s06-05-linux-access-q2-t7",
+      "s06-05-linux-access-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-05-linux-access-s031",
+      "s06-05-linux-access-s035"
+    ],
+    "contextSlideId": "s06-05-linux-access-s025"
+  },
+  {
+    "lectureId": "s06-06-project-analysis",
+    "question": 1,
+    "title": "Как исследовать структуру зависимостей",
+    "slideIds": [
+      "s06-06-project-analysis-s006",
+      "s06-06-project-analysis-s007",
+      "s06-06-project-analysis-s008",
+      "s06-06-project-analysis-s009",
+      "s06-06-project-analysis-s010",
+      "s06-06-project-analysis-s011",
+      "s06-06-project-analysis-s012",
+      "s06-06-project-analysis-s013",
+      "s06-06-project-analysis-s014",
+      "s06-06-project-analysis-s015",
+      "s06-06-project-analysis-s016",
+      "s06-06-project-analysis-s017",
+      "s06-06-project-analysis-s018",
+      "s06-06-project-analysis-s019",
+      "s06-06-project-analysis-s020",
+      "s06-06-project-analysis-s021",
+      "s06-06-project-analysis-s022",
+      "s06-06-project-analysis-s023"
+    ],
+    "exampleModel": "s06-06-project-analysis-q1-example",
+    "practiceModel": "s06-06-project-analysis-q1-practice",
+    "taskIds": [
+      "s06-06-project-analysis-q1-t1",
+      "s06-06-project-analysis-q1-t2",
+      "s06-06-project-analysis-q1-t3",
+      "s06-06-project-analysis-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-06-project-analysis-s013",
+      "s06-06-project-analysis-s017"
+    ],
+    "contextSlideId": "s06-06-project-analysis-s007"
+  },
+  {
+    "lectureId": "s06-06-project-analysis",
+    "question": 2,
+    "title": "Как интерпретировать метрики и покрытие",
+    "slideIds": [
+      "s06-06-project-analysis-s024",
+      "s06-06-project-analysis-s025",
+      "s06-06-project-analysis-s026",
+      "s06-06-project-analysis-s027",
+      "s06-06-project-analysis-s028",
+      "s06-06-project-analysis-s029",
+      "s06-06-project-analysis-s030",
+      "s06-06-project-analysis-s031",
+      "s06-06-project-analysis-s032",
+      "s06-06-project-analysis-s033",
+      "s06-06-project-analysis-s034",
+      "s06-06-project-analysis-s035",
+      "s06-06-project-analysis-s036",
+      "s06-06-project-analysis-s037",
+      "s06-06-project-analysis-s038",
+      "s06-06-project-analysis-s039",
+      "s06-06-project-analysis-s040",
+      "s06-06-project-analysis-s041"
+    ],
+    "exampleModel": "s06-06-project-analysis-q2-example",
+    "practiceModel": "s06-06-project-analysis-q2-practice",
+    "taskIds": [
+      "s06-06-project-analysis-q2-t5",
+      "s06-06-project-analysis-q2-t6",
+      "s06-06-project-analysis-q2-t7",
+      "s06-06-project-analysis-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-06-project-analysis-s031",
+      "s06-06-project-analysis-s035"
+    ],
+    "contextSlideId": "s06-06-project-analysis-s025"
+  },
+  {
+    "lectureId": "s06-07-ide-tools",
+    "question": 1,
+    "title": "Как читать диагностические возможности IDE",
+    "slideIds": [
+      "s06-07-ide-tools-s006",
+      "s06-07-ide-tools-s007",
+      "s06-07-ide-tools-s008",
+      "s06-07-ide-tools-s009",
+      "s06-07-ide-tools-s010",
+      "s06-07-ide-tools-s011",
+      "s06-07-ide-tools-s012",
+      "s06-07-ide-tools-s013",
+      "s06-07-ide-tools-s014",
+      "s06-07-ide-tools-s015",
+      "s06-07-ide-tools-s016",
+      "s06-07-ide-tools-s017",
+      "s06-07-ide-tools-s018",
+      "s06-07-ide-tools-s019",
+      "s06-07-ide-tools-s020",
+      "s06-07-ide-tools-s021",
+      "s06-07-ide-tools-s022",
+      "s06-07-ide-tools-s023"
+    ],
+    "exampleModel": "s06-07-ide-tools-q1-example",
+    "practiceModel": "s06-07-ide-tools-q1-practice",
+    "taskIds": [
+      "s06-07-ide-tools-q1-t1",
+      "s06-07-ide-tools-q1-t2",
+      "s06-07-ide-tools-q1-t3",
+      "s06-07-ide-tools-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-07-ide-tools-s013",
+      "s06-07-ide-tools-s017"
+    ],
+    "contextSlideId": "s06-07-ide-tools-s007"
+  },
+  {
+    "lectureId": "s06-07-ide-tools",
+    "question": 2,
+    "title": "Как сопоставить IDE по возможностям проекта",
+    "slideIds": [
+      "s06-07-ide-tools-s024",
+      "s06-07-ide-tools-s025",
+      "s06-07-ide-tools-s026",
+      "s06-07-ide-tools-s027",
+      "s06-07-ide-tools-s028",
+      "s06-07-ide-tools-s029",
+      "s06-07-ide-tools-s030",
+      "s06-07-ide-tools-s031",
+      "s06-07-ide-tools-s032",
+      "s06-07-ide-tools-s033",
+      "s06-07-ide-tools-s034",
+      "s06-07-ide-tools-s035",
+      "s06-07-ide-tools-s036",
+      "s06-07-ide-tools-s037",
+      "s06-07-ide-tools-s038",
+      "s06-07-ide-tools-s039",
+      "s06-07-ide-tools-s040",
+      "s06-07-ide-tools-s041"
+    ],
+    "exampleModel": "s06-07-ide-tools-q2-example",
+    "practiceModel": "s06-07-ide-tools-q2-practice",
+    "taskIds": [
+      "s06-07-ide-tools-q2-t5",
+      "s06-07-ide-tools-q2-t6",
+      "s06-07-ide-tools-q2-t7",
+      "s06-07-ide-tools-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-07-ide-tools-s031",
+      "s06-07-ide-tools-s035"
+    ],
+    "contextSlideId": "s06-07-ide-tools-s025"
+  },
+  {
+    "lectureId": "s06-08-jdk",
+    "question": 1,
+    "title": "Как пройти путь от Java-файла до байткода",
+    "slideIds": [
+      "s06-08-jdk-s006",
+      "s06-08-jdk-s007",
+      "s06-08-jdk-s008",
+      "s06-08-jdk-s009",
+      "s06-08-jdk-s010",
+      "s06-08-jdk-s011",
+      "s06-08-jdk-s012",
+      "s06-08-jdk-s013",
+      "s06-08-jdk-s014",
+      "s06-08-jdk-s015",
+      "s06-08-jdk-s016",
+      "s06-08-jdk-s017",
+      "s06-08-jdk-s018",
+      "s06-08-jdk-s019",
+      "s06-08-jdk-s020",
+      "s06-08-jdk-s021",
+      "s06-08-jdk-s022",
+      "s06-08-jdk-s023"
+    ],
+    "exampleModel": "s06-08-jdk-q1-example",
+    "practiceModel": "s06-08-jdk-q1-practice",
+    "taskIds": [
+      "s06-08-jdk-q1-t1",
+      "s06-08-jdk-q1-t2",
+      "s06-08-jdk-q1-t3",
+      "s06-08-jdk-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-08-jdk-s013",
+      "s06-08-jdk-s017"
+    ],
+    "contextSlideId": "s06-08-jdk-s007"
+  },
+  {
+    "lectureId": "s06-08-jdk",
+    "question": 2,
+    "title": "Как исследовать зависимости и работающую JVM",
+    "slideIds": [
+      "s06-08-jdk-s024",
+      "s06-08-jdk-s025",
+      "s06-08-jdk-s026",
+      "s06-08-jdk-s027",
+      "s06-08-jdk-s028",
+      "s06-08-jdk-s029",
+      "s06-08-jdk-s030",
+      "s06-08-jdk-s031",
+      "s06-08-jdk-s032",
+      "s06-08-jdk-s033",
+      "s06-08-jdk-s034",
+      "s06-08-jdk-s035",
+      "s06-08-jdk-s036",
+      "s06-08-jdk-s037",
+      "s06-08-jdk-s038",
+      "s06-08-jdk-s039",
+      "s06-08-jdk-s040",
+      "s06-08-jdk-s041"
+    ],
+    "exampleModel": "s06-08-jdk-q2-example",
+    "practiceModel": "s06-08-jdk-q2-practice",
+    "taskIds": [
+      "s06-08-jdk-q2-t5",
+      "s06-08-jdk-q2-t6",
+      "s06-08-jdk-q2-t7",
+      "s06-08-jdk-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-08-jdk-s031",
+      "s06-08-jdk-s035"
+    ],
+    "contextSlideId": "s06-08-jdk-s025"
+  },
+  {
+    "lectureId": "s06-09-cdt",
+    "question": 1,
+    "title": "Как согласовать CDT с реальной сборкой",
+    "slideIds": [
+      "s06-09-cdt-s006",
+      "s06-09-cdt-s007",
+      "s06-09-cdt-s008",
+      "s06-09-cdt-s009",
+      "s06-09-cdt-s010",
+      "s06-09-cdt-s011",
+      "s06-09-cdt-s012",
+      "s06-09-cdt-s013",
+      "s06-09-cdt-s014",
+      "s06-09-cdt-s015",
+      "s06-09-cdt-s016",
+      "s06-09-cdt-s017",
+      "s06-09-cdt-s018",
+      "s06-09-cdt-s019",
+      "s06-09-cdt-s020",
+      "s06-09-cdt-s021",
+      "s06-09-cdt-s022",
+      "s06-09-cdt-s023"
+    ],
+    "exampleModel": "s06-09-cdt-q1-example",
+    "practiceModel": "s06-09-cdt-q1-practice",
+    "taskIds": [
+      "s06-09-cdt-q1-t1",
+      "s06-09-cdt-q1-t2",
+      "s06-09-cdt-q1-t3",
+      "s06-09-cdt-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-09-cdt-s013",
+      "s06-09-cdt-s017"
+    ],
+    "contextSlideId": "s06-09-cdt-s007"
+  },
+  {
+    "lectureId": "s06-09-cdt",
+    "question": 2,
+    "title": "Как исследовать C++ через GDB и анализ",
+    "slideIds": [
+      "s06-09-cdt-s024",
+      "s06-09-cdt-s025",
+      "s06-09-cdt-s026",
+      "s06-09-cdt-s027",
+      "s06-09-cdt-s028",
+      "s06-09-cdt-s029",
+      "s06-09-cdt-s030",
+      "s06-09-cdt-s031",
+      "s06-09-cdt-s032",
+      "s06-09-cdt-s033",
+      "s06-09-cdt-s034",
+      "s06-09-cdt-s035",
+      "s06-09-cdt-s036",
+      "s06-09-cdt-s037",
+      "s06-09-cdt-s038",
+      "s06-09-cdt-s039",
+      "s06-09-cdt-s040",
+      "s06-09-cdt-s041"
+    ],
+    "exampleModel": "s06-09-cdt-q2-example",
+    "practiceModel": "s06-09-cdt-q2-practice",
+    "taskIds": [
+      "s06-09-cdt-q2-t5",
+      "s06-09-cdt-q2-t6",
+      "s06-09-cdt-q2-t7",
+      "s06-09-cdt-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-09-cdt-s031",
+      "s06-09-cdt-s035"
+    ],
+    "contextSlideId": "s06-09-cdt-s025"
+  },
+  {
+    "lectureId": "s06-10-netbeans",
+    "question": 1,
+    "title": "Как исследовать Java-проект в NetBeans",
+    "slideIds": [
+      "s06-10-netbeans-s006",
+      "s06-10-netbeans-s007",
+      "s06-10-netbeans-s008",
+      "s06-10-netbeans-s009",
+      "s06-10-netbeans-s010",
+      "s06-10-netbeans-s011",
+      "s06-10-netbeans-s012",
+      "s06-10-netbeans-s013",
+      "s06-10-netbeans-s014",
+      "s06-10-netbeans-s015",
+      "s06-10-netbeans-s016",
+      "s06-10-netbeans-s017",
+      "s06-10-netbeans-s018",
+      "s06-10-netbeans-s019",
+      "s06-10-netbeans-s020",
+      "s06-10-netbeans-s021",
+      "s06-10-netbeans-s022",
+      "s06-10-netbeans-s023"
+    ],
+    "exampleModel": "s06-10-netbeans-q1-example",
+    "practiceModel": "s06-10-netbeans-q1-practice",
+    "taskIds": [
+      "s06-10-netbeans-q1-t1",
+      "s06-10-netbeans-q1-t2",
+      "s06-10-netbeans-q1-t3",
+      "s06-10-netbeans-q1-t4"
+    ],
+    "visualSlideIds": [
+      "s06-10-netbeans-s013",
+      "s06-10-netbeans-s017"
+    ],
+    "contextSlideId": "s06-10-netbeans-s007"
+  },
+  {
+    "lectureId": "s06-10-netbeans",
+    "question": 2,
+    "title": "Как переносить процесс между средами",
+    "slideIds": [
+      "s06-10-netbeans-s024",
+      "s06-10-netbeans-s025",
+      "s06-10-netbeans-s026",
+      "s06-10-netbeans-s027",
+      "s06-10-netbeans-s028",
+      "s06-10-netbeans-s029",
+      "s06-10-netbeans-s030",
+      "s06-10-netbeans-s031",
+      "s06-10-netbeans-s032",
+      "s06-10-netbeans-s033",
+      "s06-10-netbeans-s034",
+      "s06-10-netbeans-s035",
+      "s06-10-netbeans-s036",
+      "s06-10-netbeans-s037",
+      "s06-10-netbeans-s038",
+      "s06-10-netbeans-s039",
+      "s06-10-netbeans-s040",
+      "s06-10-netbeans-s041"
+    ],
+    "exampleModel": "s06-10-netbeans-q2-example",
+    "practiceModel": "s06-10-netbeans-q2-practice",
+    "taskIds": [
+      "s06-10-netbeans-q2-t5",
+      "s06-10-netbeans-q2-t6",
+      "s06-10-netbeans-q2-t7",
+      "s06-10-netbeans-q2-t8"
+    ],
+    "visualSlideIds": [
+      "s06-10-netbeans-s031",
+      "s06-10-netbeans-s035"
+    ],
+    "contextSlideId": "s06-10-netbeans-s025"
+  }
+]

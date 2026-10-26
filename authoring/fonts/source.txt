@@ -1,0 +1,4 @@
+Raleway variable font source:
+https://github.com/google/fonts/blob/main/ofl/raleway/Raleway%5Bwght%5D.ttf
+Downloaded 2026-10-26. License: SIL Open Font License 1.1, public/fonts/OFL.txt.
+Static WOFF2 instances 400, 600 and 700 preserve Latin and Cyrillic glyph coverage.

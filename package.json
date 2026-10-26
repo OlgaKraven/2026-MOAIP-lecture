@@ -1,0 +1,30 @@
+{
+  "name": "moaip-lecture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "generate:content": "python scripts/generate.py",
+    "validate:content": "node --experimental-strip-types scripts/validate-content.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run validate:content && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "1.61.0",
+    "motion": "13.1.1",
+    "qrcode": "1.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "6.1.0",
+    "typescript": "6.0.2",
+    "vite": "8.3.5"
+  }
+}
