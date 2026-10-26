@@ -1,5 +1,5 @@
 from pathlib import Path
-import argparse, copy, hashlib, json, random, sys
+import argparse, copy, hashlib, json, random, re, sys
 
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'authoring'))
@@ -202,7 +202,8 @@ if args.brainm:
             presenter.append(lead+n['script']+code+references+ ('\n\n**Вопрос группе:** '+n['questions'] if n['questions'] else '')+ ('\n\n**Ответ и разбор после попытки:**\n\n'+n['answer'] if n['answer'] else '')+ ('\n\n**Запишите:** '+n['notebook'] if n['notebook'] else '')+'\n')
             alignment.append(dict(lectureId=l['id'],slideId=anchor,displayNumber=number,title=s['title'],anchors=dict(teacher=anchor,presenter=anchor)))
         teacher_all+=teacher[1:]; presenter_all+=presenter[1:]
-        filename=f'{no:02} — {l["title"].replace("/","–")}'
+        safe_title=re.sub(r'[<>"/\\|?*]', '–', l['title'].replace(':',' —'))
+        filename=f'{no:02} — {safe_title}'
         (textdir/(filename+'.teacher.md')).write_text(''.join(teacher),encoding='utf-8')
         (textdir/(filename+'.presenter.md')).write_text(''.join(presenter),encoding='utf-8')
         index.append(f'- [[Проекты/Моделирование и анализ программного обеспечения/Тексты преподавателя/{filename}.teacher|{l["title"]}]]')
